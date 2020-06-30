@@ -1,0 +1,20 @@
+header nav ul li a {
+    text-transform: uppercase;
+}
+
+.header .navbar {
+    padding: 0.5rem 0;
+}
+
+header .dropdown-menu {
+    background: #000000 !important;
+}
+
+header .dropdown-menu a {
+    background: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+header .dropdown-toggle::after {
+    display: none;
+}

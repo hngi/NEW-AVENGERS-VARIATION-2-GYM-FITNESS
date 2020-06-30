@@ -1,0 +1,37 @@
+footer {
+    background: #0D0D0D;
+    color: #FFFFFF;
+}
+
+footer h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF4301;
+    text-transform: uppercase;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+footer ul li a:hover {
+    color: #FF4301;
+    text-decoration: none;
+}
+
+footer span {
+    color: #FF4301;
+}
+
+footer .btn-subscribe {
+    background: #FF4301;
+    color: #FFFFFF;
+}
