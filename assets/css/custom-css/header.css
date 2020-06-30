@@ -14,6 +14,7 @@ header nav ul li a {
 
 header .dropdown-menu {
     background: #000000 !important;
+    z-index: 3;
 }
 
 header .dropdown-menu a {

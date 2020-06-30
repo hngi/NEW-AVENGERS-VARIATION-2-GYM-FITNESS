@@ -3,6 +3,12 @@
     padding: 1.5rem 8.75rem;
 }
 
+.hero-section {
+    background: url(../../img/hero-bg.jpg);
+    padding: 40vh 0;
+    background-position: center;
+}
+
 .lim-section {
     background: #0A0A0A;
     text-align: center;
@@ -10,6 +16,10 @@
     text-transform: uppercase;
     padding-top: 3rem;
     padding-bottom: 5rem;
+}
+
+.lim-section p {
+    padding-top: 1rem;
 }
 
 @media screen and ( max-width: 1245px) {
