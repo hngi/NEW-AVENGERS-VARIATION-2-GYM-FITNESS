@@ -1,5 +1,11 @@
+header {
+    background: #0D0D0D;
+    padding: 0 8.75rem;
+}
+
 header nav ul li a {
     text-transform: uppercase;
+    color: #FFFFFF !important;
 }
 
 header{
@@ -19,6 +25,7 @@ header{
 
 header .dropdown-menu {
     background: #000000 !important;
+    z-index: 3;
 }
 
 header .dropdown-menu a {
