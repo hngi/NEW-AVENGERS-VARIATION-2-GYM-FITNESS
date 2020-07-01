@@ -1,0 +1,234 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    /* height: 100vh; */
+    /* margin-bottom: 100px; */
+}
+.menu-item:active {
+    color: #FF4400;
+}
+/* navbar */
+.nav-menu {
+    /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)); */
+    background: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: all .7s;
+}
+
+.menu-item {
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color .5s;
+}
+
+.menu-item:hover {
+    color: #FF4400;
+}
+
+.btn-color {
+    color: white;
+    /* border: 1px solid #FF3465; */
+    border-radius: 0;
+    transition: all .3s;
+    background: #FF4400 !important;
+    width:120px;
+}
+
+.btn-color:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #FF4400;
+    /* font-size: 17px; */
+}
+
+.btn-color-2 {
+    color: white;
+    /* border: 1px solid #FF3465; */
+    border-radius: 0;
+    transition: all .3s;
+    background: #FF4400;
+    /* width: 100px; */
+}
+
+.btn-color-2:hover {
+    /* background-color: transparent; */
+    /* color: white; */
+    /* border: 1px solid #FF4400; */
+    /* font-size: 17px; */
+    transform: translateY(-1px);
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+    color: #FF4400;
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .line2 {
+    opacity: 0;
+}
+
+.change .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.header-img {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url("../images/Rectangle\ 4.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    /* vertical-align: center; */
+    left: 50%;
+    top: 50%;
+}
+
+.ptop{
+    padding-top: 60px;
+}
+
+.mbottom{
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inTouch {
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .7)), url("../images/Rectangle\ 21.png");
+    background-size: cover;
+    background-position: center;
+    height: ;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.inTouch .vl {
+    border-left: 1px solid white;
+    height: 150px;
+}
+
+.header-wrapper {
+    background: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 50px;
+}
+
+.header-wrapper .img {
+    height: 50px;
+}
+
+.header-wrapper ul li {
+    display: inline;
+    list-style: none;
+    margin: 0px 9px;
+}
+
+.header-wrapper a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.header-wrapper button a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FEFEFE;
+}
+
+.header-wrapper button {
+    height: 40px;
+    background: #FF4400;
+    outline: none;
+    transition: 0.5s;
+    border: none;
+}
+
+.header-wrapper button:hover {
+    background: rgb(236, 128, 89);
+}
+.address-input{
+    border-radius: 0;
+    border: 1px solid #FF4400;
+    background: transparent;
+    /* border-bottom: 1px solid #FF4400; */
+}
+.address-input:focus {
+    box-shadow: none;
+    /* background: transparent; */
+    border: 1px solid #FF4400;
+}
+
+.sub-button {
+    background: #FF4400;
+    border-radius: 0;
+    color: white;
+    /* border: 1px solid #FF4400; */
+}
+
+.sub-button:hover {
+    background: white;
+    color: #FF4400;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-menu {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .btn-color {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pad {
+        /* padding-left: 0px; */
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .nav-menu {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

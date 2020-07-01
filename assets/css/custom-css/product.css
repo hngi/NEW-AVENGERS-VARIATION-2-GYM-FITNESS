@@ -1,0 +1,408 @@
+body {
+    background-color: #0d0d0d;
+    font-family: Montserrat;
+    overflow-x: hidden;
+}
+.carousel .carousel-indicators .active {
+    color: #ff4301;
+}
+.cta-btn {
+    margin-top: 160px;
+}
+
+#pHeader {
+    background: url('../../img/Rectangle 65.png') no-repeat center center/cover;
+    height: 42rem;
+    overflow-x: hidden;
+    
+}
+#pHeader h4 {
+    color: #ff4301;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+    margin-top: 230px
+}
+#pHeader p {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+.gym-cat {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+.dum-info p, .sm-info p, .pdm-info p {
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+}
+.dum-info h5, .sm-info h5, .pdm-info h5 {
+    color: #ff4301;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.05em;
+}
+.dumbbell-img {
+    background: url('../../img/dumbbell.png') no-repeat center center/cover;
+    min-height: 500px;
+}
+.dum-info {
+    padding-top: 5em;
+    padding-left: 4em;
+}
+.sm-cat {
+    background-color: #171717;
+}
+.sm-img {
+    background: url('../../img/Smith Machine.png') no-repeat center center/cover;
+    min-height: 500px;
+}
+.sm-info {
+    padding-top: 13em;
+
+}
+.btn-left {
+    margin-left: 12em;
+}
+.pdm-cat  {
+    background-color: #171717;
+}
+.pdm-img {
+    background: url('../../img/Peck Deck Machine.png') no-repeat center center/cover;
+    min-height: 500px;
+} 
+.pdm-info {
+    padding-top: 13em;
+    padding-left: 4em;
+}
+.page-link{
+    background: transparent;
+    color: #ff4301;
+    border: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+.pagination .active {
+    color: #fff;
+}
+
+#features {
+    margin-top: 10em;
+}
+.feat-header h6, .fp-header h6, .rv-header h6 {
+    color: #ff4301;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+}
+.feat-header p, .rv-header p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.fp-header p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    display: flex;
+}
+.card {
+    background-color:#171717;
+    color: #fff;
+    box-shadow: 2px 2px 2px #171717; 
+}
+
+.card-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    
+}
+.btn-primary {
+    color: #fff;
+    border-color: #ff4301;
+    background-color: #ff4301;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border-radius: 0px;
+}
+.h-workout1, .h-workout2, .h-workout3 {
+    position: relative;
+}
+.carousel-btn1 .btn-primary {
+    position: absolute;
+    bottom: -35px;
+    left: 100px;
+}
+.carousel-indicators li {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+ .carousel-indicators  .active {
+    background-color: #ff4301;
+}
+.carousel-btn2 .btn-primary {
+    position: absolute;
+    bottom: -35px;
+    left: 120px;
+    width: 15rem;
+}
+.carousel-btn3 .btn-primary {
+    position: absolute;
+    bottom: -35px;
+    left: 100px;
+    width: 15rem;
+    
+}
+#carouselDisplay1 .carousel-inner {
+    padding: 20px 50px 80px 50px;
+}
+#carouselDisplay2 .carousel-inner {
+    padding: 20px 50px 80px 50px;
+}
+.p-btn4 {
+    padding: 15px;
+}
+
+#CarouselMenu3 .carousel-inner {
+    padding: 20px 80px 80px 50px;
+}
+
+/*=============================
+        RESPONSIVENESS
+==============================*/
+@media (max-width:1200px) {
+   .carousel-btn1 .btn-primary {
+       left: 45px;
+   }
+   .carousel-btn2 .btn-primary{
+       left: 45px;
+   }
+   .carousel-btn3 .btn-primary {
+       left: 45px;
+   } 
+}
+
+@media (max-width:960px) {
+    #pHeader {
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+    .dumbbell-img, .sm-img, .pdm-img {
+        max-width: 100%;
+        height: auto;
+        background-size: 100%;
+        background-position: 50% 50%;
+        padding-top: 0px;
+    }
+    #pHeader h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+
+}
+#pHeader p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.hdd-btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+.hidden h5 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 0px;
+}
+.hidden h5 {
+    color: #ff4301;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+}
+.hidden p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em
+}
+.page-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+}
+
+
+@media (max-width:785px) {
+     #pHeader {
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .dumbbell-img, .sm-img, .pdm-img {
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-top: 0px;
+    }
+    .gym-cat {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+}
+#dropdownMenuButton{
+     width: 11.5em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 17px;
+}
+   #pHeader h4 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+
+}
+#pHeader p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.hdd-btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+.hidden h5 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+}
+.hidden h5 {
+    color: #ff4301;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 3px solid  #0D0D0D;
+    width: 100%;
+}
+.hidden p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em
+}
+.page-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+}
+ 
+@media (min-width:320px) and (max-width: 480px) {
+    #pHeader {
+        max-width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    #pCat {
+        height:100px;
+    }
+    .dumbbell-img, .sm-img, .pdm-img {
+        max-width: 100%;
+        height: auto;
+        background-position: 50% 50%;
+        padding-top: 0px;
+    }
+    .gym-cat {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+}
+#dropdownMenuButton{
+    width: 11.5em;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 10px;
+    line-height: 17px;
+}
+   #pHeader h4 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.05em;
+
+}
+#pHeader p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.hidden h5 {
+    color: #ff4301;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+     border-bottom: 1px solid  #000;
+}
+.hidden p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em
+}
+.page-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+}
+}
