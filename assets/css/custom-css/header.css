@@ -1,13 +1,31 @@
+header {
+    background: #0D0D0D;
+    padding: 0 8.75rem;
+}
+
 header nav ul li a {
     text-transform: uppercase;
+    color: #FFFFFF !important;
 }
+
+header{
+    background: #0d0d0d;
+    opacity: 0.95;
+}
+
 
 .header .navbar {
     padding: 0.5rem 0;
 }
 
+.header .nav-link{
+      color: #ffffff !important;
+ }
+
+
 header .dropdown-menu {
     background: #000000 !important;
+    z-index: 3;
 }
 
 header .dropdown-menu a {
