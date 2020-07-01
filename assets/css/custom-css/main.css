@@ -38,14 +38,23 @@
             font-style: normal;
             font-weight: 900;
             font-size: 70px;
-            /* line-height: 76px; */
-            /* or 109% */
             text-align: center;
-            /* letter-spacing: 0.05em; */
         }
         
         .hero h1 span {
             color: #FF4301;
+        }
+        
+        .card-content {
+            position: relative;
+        }
+        
+        .card-icon {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background: #FF4301;
+            padding: 16px;
         }
         
         .team-content .card {
@@ -56,6 +65,26 @@
         
         .team-content .card-body {
             background: none;
+        }
+        
+        .team-content .card-body p {
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 30px;
+            color: #FF4301;
+        }
+        
+        .team-content .card-body h2 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 39px;
+            line-height: 48px;
+            text-transform: uppercase;
         }
         
         .team-heading {
@@ -84,7 +113,6 @@
             -moz-border-radius: 50px 0 0 50px;
             -webkit-border-radius: 50px;
             border-radius: 50px 50px 50px 50px;
-            /* width: 35px; */
             background: #FF4301;
         }
         
@@ -92,23 +120,18 @@
             -moz-border-radius: 0 50px 50px 0;
             -webkit-border-radius: 0;
             border-radius: 50px 50px 50px 50px;
-            /* width: 100px; */
             background: #FF4301;
-        }
-        
-        .modal-4 a:hover {
-            background-color: #FFA500;
         }
         
         .modal-4 a.active,
         .modal-4 a:active {
-            background: #02AE13;
+            border: 1px solid #FF4301;
             border-radius: 5.7px;
         }
         
         .pagination {
             list-style: none;
-            display: inline-block;
+            display: flex;
             padding: 0;
             margin: 7vh 0;
         }
@@ -119,13 +142,11 @@
         }
         
         .pagination a {
-            float: left;
-            display: block;
+            margin: 0 10px;
             font-size: 14px;
             text-decoration: none;
             padding: 4px 10px;
             color: #fff;
-            margin-left: -1px;
             border: 1px solid transparent;
             line-height: 1.5;
         }
@@ -139,7 +160,21 @@
         }
         
         @media (max-width: 576px) {
-            /* .team-content .card {
-                width: 92vw !important;
-            } */
+            .hero h1 {
+                font-weight: 900;
+                font-size: 31.8677px;
+                line-height: 30px;
+            }
+            .team-content .card-body p {
+                font-size: 12.5px;
+                line-height: 15px;
+            }
+            .team-content .card-body h2 {
+                font-size: 19.5272px;
+                line-height: 24px;
+            }
+            .team-heading {
+                font-size: 14.7183px;
+                line-height: 21px;
+            }
         }
