@@ -21,7 +21,6 @@ body {
 .big-banner {
     background-image: url('../../img/bmi-banner.png');
     background-size: cover;
-    /* filter: brightness(50%); */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -30,7 +29,7 @@ body {
 .overlay {
     height: inherit;
     width: 100%;
-    top: 0;
+    /* top: 0%; */
     left: 0;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
@@ -78,7 +77,6 @@ letter-spacing: 0.05em;
 .end-banner {
     background-image: url('../../img/bmi-end.png');
     background-size: cover;
-    /* filter: brightness(50%); */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
