@@ -41,6 +41,9 @@ footer .btn-subscribe {
     background: #FF4301;
     color: #FFFFFF;
 }
+.custom-wrapper {
+        padding: 1.5rem 0rem;
+    }
 
 .footer-p{
     font-size: 15px;
@@ -62,6 +65,19 @@ footer .btn-subscribe {
         color: #FFFFFF;
         display: flex;
         justify-content: center;
+    }
+    footer span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    }
+    footer svg {
+        width: 15px;
+        padding: 0px;
+    }
+    .custom-wrapper {
+        padding: 1.5rem 0rem;
     }
 }
 
