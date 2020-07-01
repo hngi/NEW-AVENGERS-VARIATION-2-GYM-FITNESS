@@ -2,7 +2,6 @@
 .big-banner {
     background-image: url('../../img/bmi-banner.png');
     background-size: cover;
-    /* filter: brightness(50%); */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -58,7 +57,6 @@ letter-spacing: 0.05em;
 .end-banner {
     background-image: url('../../img/bmi-end.png');
     background-size: cover;
-    /* filter: brightness(50%); */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
