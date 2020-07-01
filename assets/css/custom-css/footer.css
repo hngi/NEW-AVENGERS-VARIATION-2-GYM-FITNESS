@@ -20,6 +20,8 @@ footer ul li {
 footer ul li a {
     color: #FFFFFF;
     text-transform: uppercase;
+    font-size: 14px;
+line-height: 17px;
 }
 
 footer ul li a:hover {
@@ -29,9 +31,38 @@ footer ul li a:hover {
 
 footer span {
     color: #FF4301;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
 }
 
 footer .btn-subscribe {
     background: #FF4301;
     color: #FFFFFF;
 }
+
+.footer-p{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+
+@media (max-width: 520px) and (min-width: 360px) {
+   
+    .my-border{
+        border-top: 2px solid #FF4301;
+    }
+
+    .subnav li a{
+    color: #FF4301;
+
+    }
+    footer span {
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
