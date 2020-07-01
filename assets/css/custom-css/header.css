@@ -8,6 +8,10 @@ header .container-fluid {
     padding-right: 0px;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../../img/toggler-icon.svg);
+}
+
 .navbar-light .navbar-toggler {
     color: #FFFFFF;
     border: none;
@@ -18,20 +22,18 @@ header nav ul li a {
     color: #FFFFFF !important;
 }
 
-header{
+header {
     background: #0d0d0d;
     opacity: 0.95;
 }
-
 
 .header .navbar {
     padding: 0.5rem 0;
 }
 
-.header .nav-link{
-      color: #ffffff !important;
- }
-
+.header .nav-link {
+    color: #ffffff !important;
+}
 
 header .dropdown-menu {
     background: #000000 !important;
