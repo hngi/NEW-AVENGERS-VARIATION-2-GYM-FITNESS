@@ -13,10 +13,14 @@ body {
   border-radius: 0 !important;
 }
 
+.navbar-color {
+  background-color: #fff !important;
+}
+
 .index-header {
   min-height: 900px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-    url('../images/background.png');
+    url('../img/background.png');
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
@@ -51,9 +55,10 @@ body {
 .slanted {
   width: 240px;
   height: 456px;
-  background-image: url('../images/slantedrectangle.png');
+  background-image: url('../img/slantedrectangle.png');
   background-repeat: no-repeat;
   color: #ffffff;
+  margin: 0 auto;
 }
 
 .pricing-pos {
@@ -64,6 +69,10 @@ body {
   position: absolute;
   top: 66px;
   left: 40px;
+}
+
+.main-pricing-text {
+  margin-bottom: 4rem;
 }
 
 .main-pricing-text h2 {
@@ -92,9 +101,9 @@ body {
 
 .pricing-text-p {
   font-family: 'Montserrat', sans-serif;
-  line-height: 34px;
+  line-height: 27px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .btn-danger {
@@ -108,32 +117,26 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .main-pricing-section {
-    position: absolute;
-    top: 314%;
-    left: 20%;
-  }
-}
-
-@media only screen and (max-width: 992px) {
   .slanted {
     width: 240px;
     height: 456px;
-    background-image: url('../images/img-992.png');
+    margin: 0 auto;
+    background-image: url('../img/slantedrectangle-small.png');
     background-repeat: no-repeat;
     color: #ffffff;
   }
-  .main-pricing-section {
+  /* .main-pricing-section {
     position: absolute;
     top: 314%;
     left: 20%;
-  }
+  } */
 
   .element-absolute {
     position: absolute;
-    top: 76px;
-    left: 0px;
+    top: 82px;
+    left: 26px;
   }
+
   .pricing-text-p {
     line-height: 22px;
     font-size: 11px;
@@ -145,47 +148,40 @@ body {
   .pricing-text-h3 {
     font-size: 1rem;
   }
-  .enroll-btn {
+  .pricing-spacing {
+    margin-right: 60px;
+  }
+  /* .enroll-btn {
     width: 6rem !important;
     height: 38px !important;
     margin: 10px 0 !important;
     padding: 6px !important;
-  }
+  } */
 
-  .btn-text {
+  /* .btn-text {
     font-size: 0.7rem !important;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .main-pricing-section {
-    position: absolute;
-    top: 314%;
-    left: 20%;
-  }
-
-  .pricing-spacing {
-    margin-right: 10px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .main-pricing-section {
-    position: absolute;
-    top: 316%;
-    left: 40%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 760px) {
-  .main-pricing-section {
+  /* .main-pricing-section {
     position: absolute;
     top: 416%;
     left: 40%;
+  } */
+
+  .slanted {
+    margin: 0 auto;
+    margin-left: 10rem;
   }
+
   .pricing-section {
     margin-top: 200px;
   }
+
+  /* .main-pricing-text {
+    margin-bottom: 4rem;
+  } */
 
   .main-pricing-text h2,
   .main-pricing-text h3 {
@@ -262,26 +258,38 @@ body {
   }
 }
 
+@media only screen and (max-width: 498px) {
+  .slanted {
+    margin: 0 auto;
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .slanted {
+    margin: 0 auto;
+    margin-left: 7rem;
+  }
+}
+
 @media only screen and (max-width: 460px) {
-  .main-pricing-section {
+  /* .main-pricing-section {
     position: absolute;
     top: 416%;
     left: 30%;
+  } */
+}
+
+@media only screen and (max-width: 396px) {
+  .slanted {
+    margin: 0 auto;
+    margin-left: 6rem;
   }
 }
 
-@media only screen and (max-width: 414px) {
-  .main-pricing-section {
-    position: absolute;
-    top: 416%;
-    left: 30%;
+@media only screen and (max-width: 368px) {
+  .slanted {
+    margin: 0 auto;
+    margin-left: 5rem;
   }
 }
-
-/* @media only screen and (max-width: 375px) {
-  .main-pricing-section {
-    position: absolute;
-    top: 240%;
-    left: 33%;
-  }
-} */
