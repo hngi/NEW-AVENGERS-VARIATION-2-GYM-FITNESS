@@ -93,10 +93,7 @@ body{
   
 }
    
-.next{
-  position: relative;
-  margin-top: -90px;
-}
+
 
 section.cds{
   margin-top:-100px;
@@ -107,18 +104,104 @@ section.cds{
 }
 /* For responsiveness_ starts here*/
 
+@media screen and (max-width:320px){
+  h3{
+    position: relative;
+    top:50px;
+    font-size:25px;
+  }
+
+  h5{
+    font-size: 20px;
+    margin-top:30px;
+  }
+
+  #text{
+    position: relative;
+    top: -136px;
+  }
+  #page{
+    font-size: small;
+  }
+
+  .msg{
+    position: relative;
+    top:-180px;
+  }
+  .fdb{
+    position: relative;
+    
+  }
+  .bot{
+    font-size: 1px;
+  }
+}
+
 @media screen and (max-width:336px){
   .map{
     width:370px;
   }
+   h5{
+    text-align:center;
+  }
+  h3{
+    text-align:center;
+  }
+
+  .front_desk{
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width:360px){
+  h3{
+    position: relative;
+    bottom: -30px;
+  }
+  h5{
+    position: relative;
+    bottom: -30px;
+  }
+
+  #text{
+    position: relative;
+    top:-130px;
+  }
+
+  .fdb{
+    margin-top:
+  }
+  
 }
 
 @media screen and (max-width:375px){
 
   #page{
-    margin-bottom: auto;
+    position: relative;
+    bottom: 120px;
+    
   }
+  #text{
+ font-size: 16px;
 }
+
+h3{
+  text-align: center;
+  margin-top: 70px;
+
+}
+
+h5{
+  text-align: center;
+  margin-right: 10px;
+}
+
+.bot{
+ font-size: 13px;
+}
+}
+
+
 
 @media screen and (max-width:414px){
     
@@ -129,31 +212,139 @@ font-family: Montserrat;
     }   
    
   .cover{
-    background-size: 80px;
+    background-size: 100%;
   }  
-.map{
-  width:450px;
-  height:300px;
-}
+
+
 .chain{
   width:450px;
   height:200px;
 }
+
+.front_desk{
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.bot{
+  padding-right: 123px;
+}
+.text-fluid{
+ position: relative;
+ bottom: 120px;
 }
 
+#text{
+  position: relative;
+  bottom: 120px;
+}
+h3{
+  margin-top: 30px;
+}
+}
 
-@media screen and (max-width:1024px){
+@media screen and (min-width:768px){
   .cover{
-    background-size: cover;
+    background-size: 100%;
   }
   .text{
     font-size: 20px;
   }
   #page{
-    font-size:50px; 
+    font-size:40px; 
     font-weight:bolder;
-    margin-top:100px;
+    font-family: Montserrat;
+    position: relative;
+    bottom: 40px;
+    
   }
+  .next{
+  position: relative;
+  bottom: 2px;
+}
+
+.fdb{
+  position: relative;
+  top:-40px;
+}
+
+.bot{
+  font-size: small;
+  padding-right:120px;
+  padding-left:100px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width:1024px){
+  .cover{
+    background-size: 100%;
+   
+  }
+  .text{
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+  }
+  #page{
+    font-size:40px; 
+    font-weight: bolder;
+    font-family: Montserrat;
+    
+  }
+  .next{
+  position: relative;
+  bottom:300px ;
+  
+}
+.fdb{
+  position: relative;
+  bottom: 280px;
+}
+.msg{
+  position: relative;
+  bottom:150px ;
+}
+.msg_1{
+  margin-top: 20px;
+}
+}
+
+@media screen and (max-width:1418px){
+  h3{
+    position: relative;
+    top:70px;
+  }
+  h5{
+    position: relative;
+    top:60px;
+  }
+
+  .front_desk{
+    position: relative;
+    top:70px;
+  }
+  .msg{
+    position: relative;
+    top:120px;
+  }
+  .fdb{
+    position: relative;
+    top:80px;
+  }
+
+  .mp{
+    position: relative;
+    top:200px;
+  }
+
+  .cds{
+    position: relative;
+    top:160px;
+  }
+  .bot{
+    font-size: 18px;
+  }
+  
 }
 
 /* end of media width*/
@@ -165,14 +356,14 @@ font-family: Montserrat;
      <!--Header section-->
      <main class="main">
        <section class="cover">
-         <h1 id="page" class="display-4 text-fluid ">CONTACT US</h1>
-         <p class="text text-fluid">We would love to work with You</p>
+         <h1 id="page" class=" text-fluid ">CONTACT US</h1>
+         <p class="text text-fluid" id="text">We would love to work with You</p>
        
        </section>
      </main>
        <!--grid row-->
 <br>
-       <div class="row d-flex mt-5 next">
+       <div class="row d-flex  next">
           <div class="col-sm-6 col-md-7-offset-5 col-lg-7-offset-5 text-white ml-4">
             <h3>We are Always Available</h3>
             <br>
@@ -181,14 +372,14 @@ font-family: Montserrat;
           </div>
          <div class="d-flex col-sm-6 col-md-5 col-lg-5">
 
-           <div class="row d-flex ml-5">
+           <div class="row d-flex front_desk">
              <div class="col-xs-6-mt-5 ml-2 admin">
                <img src="images/Front-desk.png" style="border-radius:100px;">
                <br>
                <br>
                <img src="images/Front-desk.png" style="border-radius:100px;">
              </div>
-             <div class="col-xs-6 ml-4 mt-3 text-white phone">
+             <div class="col-xs-6 ml-4 mt-4 text-white phone">
                <h4>Administrator</h4>
                <p>+234 3636 3233 21</p>
                <br>
@@ -206,7 +397,7 @@ font-family: Montserrat;
 
 <br>
 <!--form section-->
-<div class="container">
+<div class="container msg">
 
     <div class="row " >
 
@@ -238,13 +429,13 @@ font-family: Montserrat;
             <div class="col-md-12">
               <div class="form-group">
                
-                <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="6" required data-error="Please,leave us a message."></textarea>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="8" required data-error="Please,leave us a message."></textarea>
                 <div class="help-block with-errors"></div>
               </div>
             </div>
           </div>
             
-             <div class="row">
+             <div class="row msg_1">
                <div class="col-lg- col-md-4"></div>
                
                <div class="col-lg-4 col-md-4">
@@ -265,10 +456,10 @@ font-family: Montserrat;
   <!--end form section-->
   <br>
 <!--map section-->
-  <div class="row d-block w-100 mt-5 mr-10 map">
-    <div class="col-sm-12 map">
-  
-<img src="images/map1.png" class=" img-fluid map mr-2" width="100%" height="auto" alt="map" >
+  <div class="row  ">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.5526325924857!2d-116.95767338548177!3d32.77760319126412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9599157afb6f1%3A0x66185c30f5d043de!2s1124%20Random%20Rd%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sng!4v1593566347836!5m2!1sen!2sng" class="mp" width="1500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
    
     </div>
   </div>
