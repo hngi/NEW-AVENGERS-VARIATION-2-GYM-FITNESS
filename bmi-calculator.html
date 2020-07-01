@@ -9,20 +9,19 @@
     <link rel="stylesheet" href="../../assets/css/custom-css/header.css">
     <link rel="stylesheet" href="../../assets/css/custom-css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-   
     <title>Gym | Fitness</title>
 </head>
 
 <body>
     <!-- Page header -->
     <section class="page-section ">
-        <div class="container-fluid big-banner" style="height: 500px;">
+        <div class="container-fluid big-banner img" style="height: 500px;">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col banner-text">
                         <h1 style="color:#FF4301;">BMI <span class="text-white"> CALCULATOR</span></h1>
-                        <p class="text-dark">Use this calculator to check your body <br> mass index
-                          (BMI) and find out if you're a <br> healthy weight.</p>
+                        <p class="text-white" style="font-weight: normal; letter-spacing: 0.05em;line-height: 24px;">Use this calculator to check your body  mass index
+                          (BMI) and find out if you're a healthy weight.</p>
                     </div>
                 </div>
             </div>
@@ -31,26 +30,26 @@
     
     <!-- Calculator section  -->
    <section class="page-section" style="background: rgba(13, 13, 13, 0.96);">
-        <div class="container pt-3 mx-auto">
+        <div class="container pt-4 pb-4 mx-auto">
             <div class="row justify-content-center">
-                <div class=" col-lg col-md-6 col-sm-4">
+                <div class="calculate col-lg-4 col-md-4 col-sm-12 mx-auto">
                     <h3 class="text-white">Calculate your <span style="color:#FF4301;"> BMI</span></h3>
                     <p class="text-white">You can use your BMI result as a starting point for further discussion with a GP about your weight and general health.
                          Keep up the good work! For tips on maintaining a healthy weight, check out the food and diet and fitness sections.</p>
                     <form action="">
                         <div class="form-row">
-                            <div class=" form-group col-md-4">
+                            <div class=" form-group col-lg-6 col-md-6">
                               <input type="text" class="form-control" placeholder="Height/cm">
                             </div>
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg-6 col-md-6">
                               <input type="text" class="form-control" placeholder="Weight/kg">
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg-6 col-md-4">
                                 <input type="text" class="form-control" placeholder="age">
                               </div>
-                            <div class="form-group col-md-4">
+                            <div class="form-group col-lg-6  col-md-4">
                                 <select id="inputState" class="form-control">
                                   <option selected>size</option>
                                   <option>...</option>
@@ -58,24 +57,23 @@
                               </div>
                         </div>
                         <div class="row">
-                            <div class="form-group col-md-8">
+                            <div class="form-group col-lg-12 col-md-8">
                                 <select id="inputState" class="form-control">
                                   <option selected>Select an active factor</option>
                                   <option>...</option>
                                 </select>
                               </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md " >
-                                <input type="button" value="CALCULATE" style="background-color: #FF4301; color: #ffffff; font-weight: bold; border: none; width: 150px; height: 30px;">
+                            <div class="form-group col-lg-12 col-md-8">
+                              <div class="col-lg-6 float-right calculate-btn">
+                                <button class="btn " style="background-color: #FF4301; color: #ffffff;">CALCULATE</button>
+                              </div>
                             </div>
                         </div>
-                        
                     </form>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-4 ">
-                    <h3 class="text-white text-center">BMI Chart</h3>
-                    <table class="table table-bordered">
+                <div class="col-lg-4 col-md-4 col-sm-12 mx-auto">
+                    <h3 class="text-white text-center mb-3">BMI Chart</h3>
+                    <table class="table " rules='all'>
                         <thead style="font-weight: bolder;">
                             <tr style="background-color: #FF4301;">
                               <th scope="col">BMI</th>
@@ -109,36 +107,43 @@
     <!-- essay -->
 
    <section class="page-section" style="background-color: black;">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="col">
-                <div class="col py-4" style="color: #FF4301;">
-                    <h3>Understanding your weight</h3>
+                <div class="col pt-5 pb-3 " style="color: #FF4301;">
+                    <h3>Understanding your BMI result</h3>
                 </div>
-                <div class="col">
+                <div class="col pb-5">
                   <h2 style="color: #ffffff;">Underweight</h2>
-                  <p style="color: lightgrey;">Underweight Being underweight could be a sign you're not eating enough or you may be ill.
+                  <p style="color: lightgrey; font-size: 14px;">Underweight Being underweight could be a sign you're not eating enough or you may be ill.
                      If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system,
                       fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator,
                        which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. 
                        If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. They can give you help and advice. </p>
+                  <a class="btn btn-xl float-right read-more" style="color:#F57D20;" href="#">Read more +</a>
+                  
                 </div>
-                <div class="col">
+                <div class="col pb-5">
                   <h2 style="color: #ffffff;">Healthy Weight</h2>
-                  <p style="color: lightgrey;">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help.
-                     Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. 
+                  <p style="color: lightgrey; font-size: 14px;">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. 
+                    If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system, 
+                    fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. 
                     They can give you help and advice.</p>
+                  <a class="btn btn-xl float-right read-more" style="color:#F57D20;" href="#">Read more +</a>
                 </div>
-                <div class="col">
+                <div class="col pb-5">
                   <h2 style="color: #ffffff;">Overweight</h2>
-                  <p style="color:lightgrey">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help.
+                  <p style="color:lightgrey; font-size: 14px;">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. 
+                    If you're underweight, a GP can help. Weighing too little can contribute to a weakened immune system,
+                     fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. 
+                    They can give you help and advice. </p>
+                  <a class="btn btn-xl float-right read-more" style="color:#F57D20;" href="#">Read more +</a>
+                </div>
+                <div class="col pb-5">
+                  <h2 style="color: #ffffff;">Overweight</h2>
+                  <p style="color:lightgrey; font-size: 14px;">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help.
                      Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. 
                     They can give you help and advice. </p>
-                </div>
-                <div class="col">
-                  <h2 style="color: #ffffff;">Overweight</h2>
-                  <p style="color:lightgrey">Healthy weight Being underweight could be a sign you're not eating enough or you may be ill. If you're underweight, a GP can help.
-                     Weighing too little can contribute to a weakened immune system, fragile bones and feeling tired. You can check if you're underweight by using our BMI healthy weight calculator, which shows your body mass index (BMI). If your BMI is below 18.5, this suggests that your weight may be too low. If you're underweight, or you're concerned that someone you know is, tell a GP or practice nurse. 
-                    They can give you help and advice. </p>
+                  <a class="btn btn-xl float-right read-more" style="color: #F57D20;" href="#">Read more +</a>
                 </div>
               </div>
         </div>
@@ -148,9 +153,9 @@
 
     <section class="page-section end-banner" style="height: 500px;">
         <div class="container">
-            <div class="text-center">
+            <div class="row text-center">
                 <div class="col text-white">
-                    <h3 sty>REGISTER NOW TO GET DEALS</h3>
+                    <h3 class=" end-banner-text">REGISTER NOW TO GET DEALS</h3>
                     <p>WHERE HEALTH MEETS FITNESS</p>
                     <button class="btn" style="background:#FF4301; color: #ffffff;">Register</button>
                 </div>
