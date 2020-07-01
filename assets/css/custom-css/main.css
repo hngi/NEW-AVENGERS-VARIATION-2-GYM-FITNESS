@@ -1,3 +1,4 @@
+<<<<<<< HEAD
         .custom-wrapper {
             margin: 0 auto;
             padding: 1.5rem 8.75rem;
@@ -96,3 +97,54 @@
         .pagination a:active {
             outline: none;
         }
+=======
+.custom-wrapper {
+    margin: 0 auto;
+    padding: 1.5rem 8.75rem;
+}
+
+.hero-section {
+    background: url(../../img/hero-bg.jpg);
+    padding: 40vh 0;
+    background-position: center;
+}
+
+.lim-section {
+    background: #0A0A0A;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.lim-section p {
+    padding-top: 1rem;
+}
+
+@media screen and ( max-width: 1245px) {
+    .custom-wrapper {
+        padding: 1.5rem 4rem;
+    }
+}
+
+@media screen and ( max-width: 1105px) {
+    .custom-wrapper {
+        padding: 1.5rem 1rem;
+    }
+}
+
+.content::after {
+    height: 20px !important;
+}
+
+.icon-container {
+    width: 85px;
+    height: 85px;
+    background: #151515;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    padding: 18px;
+}
+>>>>>>> feature/ch55835
