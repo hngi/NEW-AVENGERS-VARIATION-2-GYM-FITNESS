@@ -1,0 +1,284 @@
+
+/* animated search section*/
+
+.sb-search {
+	position: relative;
+	margin-top: 5px;
+	width: 0%;
+	min-width: 50px;
+	height: 60px;
+	float: right;
+  overflow: auto;
+   
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+  -webkit-backface-visibility: visible;
+  z-index: 0;
+}
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	/* outline: none; */
+	background: rgba(0, 0, 0, 0);
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	
+	padding: 20px 55px 20px 20px;
+	font-family: inherit;
+	font-size: 20px;
+  color: #2c3e50;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+input[type="search"].sb-search-input {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+}
+.sb-search-input::-webkit-input-placeholder {
+  color: #ddd;
+}
+.sb-search-input::placeholder {
+  color: #232323;
+  font-size: 15px !important;
+}
+.sb-search-input {
+  /* border: 1px solid #232323; */
+}
+.sb-icon-search,
+.sb-search-submit  {
+	width: 60px;
+	height: 60px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -9;
+}
+.sb-icon-search {
+
+	z-index: 40;
+	font-size: 12px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+	content: "\1F50D";
+}
+.sb-icon-search::after {
+	content: " ";
+}
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+}
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background:transparent;
+	color: #fff;
+	z-index: 11;
+}
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+
+ .navbar .nav-item .nav-link, .navbar-brand {
+   color: #fff;
+ }
+ .navbar .nav-item .nav-link:hover{
+   color: #fff;
+ }
+ .navbar .navbar-brand {
+   color: black;
+ }
+ .navbar .navbar-toggler-icon {
+   color: #fff;
+   background-color: #fff;
+ }
+
+ .navbar-toggler-icon-md {
+    float:none;
+    display:none;
+}
+ 
+
+.nav-item{
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+
+.h1{
+  text-align:center;
+  margin-top:auto;
+  color:#f57d20;
+  font-weight: 900px;
+  font-size: 30px;
+ 
+}
+
+.small{
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+.cont{
+  color:#f57d20;
+}
+
+body{
+  margin:auto;
+  background-color: black;
+}
+
+.main{
+  
+  color:white;
+  position: relative;
+  margin-top: auto;
+}
+
+.give{
+  text-align: center;
+  color:#f57d20;
+}
+
+.fdb{
+  text-align: center;
+  color:#f57d20;
+}
+
+ .bot{
+  
+  background-color:#f57d20;
+  
+}
+/*
+.navColor{
+    background: rgba(0, 0, 0, 0.383);
+    position: absolute;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+   position: fixed;
+   width: 100%;
+   padding: 3px 0;
+}
+
+.header-overlay{
+    background: rgba(0,0,0,0);
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.gym-header-text{
+	display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.gym-header-content {
+    position:relative;
+}
+
+.gym-main-contact {
+    display: block;
+    width: 100%;
+   
+}
+
+.remove-bottom-margin {
+    margin-bottom:0px;
+}
+
+.quality {
+    color: #fff;
+    margin-top: 0px;
+    font-weight: lighter;
+
+}
+*/
+.cover{
+    background-image: url("images/header img.png");
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:60vh;
+    color:#fff;
+    width:100%;
+    position: relative;
+    z-index:0;
+    padding:80px 20px 50px 20px;
+
+}
+#page{
+font-family: 'Montserrat', sans-serif;
+font-size:1.85rem;
+}
+
+.text{
+font:1rem/1.5rem 'Montserrat', sans-serif;
+font-size:1rem;
+font-style:normal;
+font-weight: normal;
+}
+/* For responsiveness*/
+
+@media screen and (max-width:768px){
+    .bot{
+        
+        
+    }
+   .map{
+        width:100%;
+    }
+    .locationCard{
+       
+    }
+} 
+
+
+@media screen and (max-width:500px){
+    .navbar a {
+        float:none;
+        display:block;
+    }
+} 
+
+
+   
+
