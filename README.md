@@ -1,3 +1,5 @@
+# Project Envato by Team Avengers - Gym/Fitness Website
+
 
 **Collaboration Instructions:**
 
@@ -9,12 +11,11 @@
     6. Once you are done working run "git pull" locally.
     7. Push your code to the repository.
     8. Make a Pull request for the master branch. 
+    
 
 ## Design
     https://www.figma.com/file/hPBHR7aVZf8sTS21RTcUps/Gym%2FFitness-Variation-2?node-id=63%3A13
 
-
-# Project Envato by Team Avengers - Gym/Fitness Website
 
 ##  Deployment
 
@@ -67,7 +68,7 @@ This project is licensed under the MIT License.
 |Clicking `BMI calculator` link on the navigation bar|You are redirected to a page where you can be able to calculate your BMI.|
 |Clicking `Our team` link on the navigation bar|You are redirected to a page where you can view the members of the gym and trainers.|
 |Clicking `About Us` link on the navigation bar.|You are redirected to a page where you view the story of the gym and so much more.|
-|Clicking `Contact Us` link on the navigation bar.|You are redirected to a page written various ways you can use to contact us.|
+|Clicking `Contact` link on the navigation bar.|You are redirected to a page written various ways you can use to contact the gym.|
 
 
 ## Sample Screenshot of a Part of the website
