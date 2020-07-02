@@ -11,7 +11,7 @@
     <script src="https://use.fontawesome.com/d5823d317f.js"></script>
     <script src="js/modernizr.custom.js"></script>
    <style>
-
+/*header style starts here*/
 
 header nav ul li a{
   text-transform:uppercase;
@@ -33,11 +33,30 @@ header .dropdown-menu a{
 header.dropdown-toggler::after{
   display:none;
 }
+.fitfam{
+  color:#fff;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.gym{
+  color:#ff4301;
+  text-transform:uppercase;
+  font-family: Montserrat;
+  font-weight: bold;
 
 
+}
+
+.navbar-toggler-icon{
+  color:#ffffff;
+  background-color: #ffffff;
+}
+/*header ends here*/
+/*footer starts here*/
 footer{
   background: #0d0d0d;
-  color:#fffff;
+  color:#ffffff;
 }
 footer h5{
   font-family: Montserrat;
@@ -51,11 +70,15 @@ footer h5{
 
 footer ul li {
   list-style: none;
+ 
 }
-
+footer ul{
+  margin-top: 50px;
+}
 footer ul li a {
   color: #af9696;
   text-transform:uppercase;
+  
 }
  footer ul li a:hover {
 color:#ff4301;
@@ -70,6 +93,13 @@ text-decoration: none;
    background: #ff4301;
    color: #ffffff;
  } 
+
+ .socials{
+   margin-bottom: 50px;
+ }
+   /*footer ends here*/
+   
+   
      .cover{
     background-image: url("images/header img.png");
     font-family: 'Montserrat', sans-serif;
@@ -88,23 +118,24 @@ text-decoration: none;
 font-family: 'Montserrat', sans-serif;
 font-size:2.5rem;
 text-align: center;
-  color:#f57d20;
+  color: #ff4301;;
   font-weight: bolder;
   margin-top: 180px;
 }
 
 .text{
 font:1rem/1.5rem 'Montserrat', sans-serif;
-font-size:1.7rem;
+font-size:1.5rem;
 font-style:normal;
 font-weight: normal;
 text-align: center;
+margin-top:-50px ;
 }
 
 .h1{
   text-align:center;
   margin-top:auto;
-  color:#f57d20;
+  color: #ff4301;
   font-weight: 900px;
   font-size: 30px;
  
@@ -115,7 +146,7 @@ text-align: center;
   margin-bottom: 200px;
 }
 .cont{
-  color:#f57d20;
+  color: #ff4301;;
 }
 
 body{
@@ -123,32 +154,26 @@ body{
   background-color:#000000;
 }
 
-footer{
-  
-}
 
-.main{
-  
-  color:white;
-  position: relative;
-  margin-top: auto;
-}
+
+
+
 
 .give{
   text-align: center;
-  color:#f57d20;
+  color: #ff4301;
 }
 
 .fdb{
   text-align: center;
-  color:#f57d20;
+  color: #ff4301; 
   font-size:35px;
   
 }
 
  .bot{
   
-  background-color:#f57d20;
+  background-color: #ff4301;
   padding-top: 4px;
   padding-bottom: 4px;
   padding-right: 100px;
@@ -166,9 +191,7 @@ section.cds{
   font-weight: bold;
 }
 
-footer{
- 
-}
+
 /* For responsiveness_ starts here*/
 
 @media screen and (max-width:320px){
@@ -178,7 +201,7 @@ footer{
     font-size:25px;
   }
 
-  h5{
+  .lorem{
     font-size: 20px;
     margin-top:30px;
   }
@@ -202,13 +225,26 @@ footer{
   .bot{
     font-size: 1px;
   }
+  .admin{
+  position: relative;
+  right:50px;
+}
+  
+.phone{
+  position: absolute;
+  left:180px;
+  bottom: 40px;
+}
+#text{
+ 
+}
 }
 
 @media screen and (max-width:336px){
   .map{
     width:370px;
   }
-   h5{
+   .lorem{
     text-align:center;
   }
   h3{
@@ -225,20 +261,31 @@ footer{
     position: relative;
     bottom: -30px;
   }
-  h5{
+  .lorem{
     position: relative;
     bottom: -30px;
   }
 
   #text{
     position: relative;
-    top:-130px;
+    top:-80px;
+    font-size: small;
   }
-
-  .fdb{
-    margin-top:
-  }
+.admin{
+  position: relative;
+  right:80px;
+}
   
+.phone{
+  position: absolute;
+  left:120px;
+  bottom: 40px;
+}
+
+.fdb{
+ 
+  
+}
 }
 
 @media screen and (max-width:375px){
@@ -250,6 +297,8 @@ footer{
   }
   #text{
  font-size: 16px;
+ position: relative;
+ 
 }
 
 h3{
@@ -258,7 +307,7 @@ h3{
 
 }
 
-h5{
+.lorem{
   text-align: center;
   margin-right: 10px;
 }
@@ -268,7 +317,21 @@ h5{
 }
 }
 
-
+@media screen and (max-width:411px){
+  .admin{
+  position: relative;
+  right:60px;
+}
+  
+.phone{
+  position: absolute;
+  left:160px;
+  bottom: 40px;
+}
+#text{
+  margin-top: 4px;
+}
+}
 
 @media screen and (max-width:414px){
     
@@ -302,7 +365,7 @@ font-family: Montserrat;
 
 #text{
   position: relative;
-  bottom: 120px;
+  bottom: 80px;
 }
 h3{
   margin-top: 30px;
@@ -340,6 +403,10 @@ h3{
   padding-left:100px;
   text-align: center;
 }
+.admin{
+  margin-right: 50px;
+}
+
 }
 
 @media screen and (max-width:1024px){
@@ -414,6 +481,19 @@ h3{
   
 }
 
+@media screen and (max-width:2000px){
+  .admin{
+    margin-left: 80px;
+  }
+
+  #page{
+    margin-top:75px;
+  }
+
+  .phone{
+    margin-right: 1500px;
+  }
+}
 /* end of media width*/
    </style>
 </head>
@@ -424,7 +504,7 @@ h3{
         <nav class="navbar navbar-expand-lg navbar-light text-white navColor">
             <a class="navbar-brand" href="index.html">
                 <img src="images/Vector.png" alt="Fitfam gym logo" class="img-fluid">
-            </a>
+            </a><span class="fitfam">fitfam</span> <span class ="gym">gym</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
           </button>
@@ -478,13 +558,13 @@ h3{
           <div class="col-sm-6 col-md-7-offset-5 col-lg-7-offset-5 text-white ml-4">
             <h3>We are Always Available</h3>
             <br>
-          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eveniet numquam quisquam molestiae sit 
+          <h5 class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit eveniet numquam quisquam molestiae sit 
             officiis nihil, vel non aperiam suscipit blanditiis magni voluptate ex.</h5>
           </div>
          <div class="d-flex col-sm-6 col-md-5 col-lg-5">
 
            <div class="row d-flex front_desk">
-             <div class="col-xs-6-mt-5 ml-2 admin">
+             <div class="col-xs-6-mt-5 admin">
                <img src="images/Front-desk.png" style="border-radius:100px;">
                <br>
                <br>
@@ -504,7 +584,7 @@ h3{
         
          </div>
          
-       <h3 class="text-fluid mt-5 fdb">GIVE US FEEDBACK</h3>
+       <h3 class="text-fluid fdb">GIVE US FEEDBACK</h3>
 
 <br>
 <!--form section-->
@@ -513,7 +593,7 @@ h3{
     <div class="row " >
 
       <div class="col-lg-12 col-lg ">
-
+    
         
         <form id="contact-form" method="post" action="" role="form">
 
@@ -579,21 +659,21 @@ h3{
   <div class="row no-gutters card_s">
     <div class="col-lg-3 col-md-3"></div>
     <div class=" col-lg-3  col-md-3">
-      <img class="img-fluid  chain d-block" src="images/chain.png" >
+      <img class="img-fluid  chain d-block" src="images/chain.png" width="100%" > 
     </div>
     <div class="col-lg-3  col-md-3 px-3 py-3 bg-white d-block w-100">
       <ul class="list-unstyled">
-        <li><svg style= "color:#f57d20;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <li><svg style= "color:#ff4301;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
         </svg><span class="bold">Location</span>
         <p class="smallest">1124 Random Rd. El Cajon</p></li>
         <div class="dropdown-divider"></div>
-        <li><svg style= "color:#f57d20;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <li><svg style= "color:#ff4301;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
         </svg><span class="bold">Contact</span>
           <p class="smallest">+4567832450</p></li>
           <div class="dropdown-divider"></div>
-          <li><svg style= "color:#f57d20;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <li><svg style= "color:#ff4301;" width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
           </svg><span class="bold">Email</span>
 
@@ -607,18 +687,22 @@ h3{
   <!-- begin footer -->
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
   <footer class="footer">
     <div class="container-fluid custom-wrapper">
         <div class="row top justify-content-between">
             <div class="col-md-3">
                 <div class="py-3 d-md-block">
-                    <img src="images/Vector.png" alt="Fitfam logo icon">
+                    <img src="images/Vector.png" alt="Fitfam logo icon"><span class="fitfam">fitfam</span> <span class ="gym">gym</span>
                 </div>
-                <p class="py-2 text-white">
+                <p class="py-2 ">
                     Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit. Imperdiet in egestas eu consectetur eros, turpis. Sapien vitae mauris eu ultrices suspendisse risus, malesuada nibh. Venenatis orci neque quam quisque gravida ultrices. Vestibulum sit pellentesque
                     ultricies risus commodo neque, ac. Quis et dui arcu urna sagittis ipsum volutpat diam. Amet. </p>
             </div>
-            <div class="col-6 col-md-2 text-white">
+            <div class="col-6 col-md-2 ">
                 <h5 class="py-3">Explore</h5>
                 <ul class="pl-0 list-unstyled">
                     <li><a href="">Home</a></li>
@@ -634,21 +718,21 @@ h3{
             <div class="col-6 col-md-3">
                 <div class=" d-md-flex">
                     <div>
-                        <h5 class="py-3 text-white">visit</h5>
-                        <ul class="pr-5 pl-0 text-white">
+                        <h5 class="py-3 ">visit</h5>
+                        <ul class="pr-5 pl-0 ">
                             <City,>100, Street adress City, 00188 State</p>
                         </ul>
                     </div>
                     <div>
-                        <h5 class="py-3 text-white">legal</h5>
-                        <ul class="pl-0 text-white">
+                        <h5 class="py-3 ">legal</h5>
+                        <ul class="pl-0 ">
                             <li><a href="">PRIVACY POLICY</a></li>
                             <li class="py-1"><a href="">TERMS</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="d-none d-md-block">
-                    <h5 class="py-3">follow us on social media</h5>
+                    <h5 class="py-3 socials">follow us on social media</h5>
                     <div class="d-flex justify-content-between">
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -675,7 +759,7 @@ h3{
                 </div>
             </div>
             <div class="col-12 d-md-none">
-                <h5 class="py-3">follow us on social media</h5>
+                <h5 class="py-3 socials">follow us on social media</h5>
                 <div class="d-flex justify-content-between">
 
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -701,7 +785,7 @@ h3{
                 </div>
             </div>
             <div class="col-md-4">
-                <h5 class="py-3 text-right">subscribe to our newsletter</h5>
+                <h5 class="py-3 text-right socials">subscribe to our newsletter</h5>
                 <form class="ml-5">
                     <div class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your e-mail here">
