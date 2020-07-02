@@ -1,0 +1,138 @@
+
+.big-banner {
+    background-image: url('../../img/bmi-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.overlay {
+    height: inherit;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-overlay {
+    height: inherit;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bmi-head {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    letter-spacing: 0.05em;
+    margin-left: 60px;
+}
+
+.bmi-desc {
+    font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            letter-spacing: 0.09em;
+    margin-left: 60px;
+}
+
+.bmi-text {
+    line-height: 30px;
+letter-spacing: 0.05em;
+}
+
+.bmi-input {
+    height: 60px
+}
+
+.banner-footer {
+    height: inherit;
+}
+
+.end-banner {
+    background-image: url('../../img/bmi-end.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.table {
+    height: 300px;
+}
+.table-body {
+    color: #ffffff;
+    font-weight: bold;
+}
+.banner {
+    height: inherit;
+}
+.end-banner-text {
+    margin-top: 230px;
+}
+@media screen and ( max-width: 600px) {
+    .form-group {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 25px;
+        
+    }
+    .calculate {
+        line-height: 25px;
+        width: 300px;
+        margin: 0 auto;
+        letter-spacing: 0.05em;
+    }
+    .calculate-btn{
+        width: 220px;
+        margin: 20px auto;
+    }
+    .table{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .read-more {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .bmi-desc {
+        font-size: 16px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .bmi-head {
+        font-size: 44px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    .bmi-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .bmi-link {
+        justify-content: center !important;
+    }
+
+    .calculate-btn {
+        justify-content: center !important;
+    }
+
+} 
+
+@media (min-width: 768px) {
+    .bmi-desc {
+        font-size: 16px;
+    }
+
+    .bmi-head {
+        font-size: 44px;
+    }
+}
