@@ -7,6 +7,18 @@ header .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
 }
+.navbar-nav .nav-link:hover {
+    background-color: #ff4301 !important;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ff916b !important;
+}
+a.dropdown-item.active{
+    background-color: #ff4301 !important;
+}
+.carousel .carousel-indicators .active {
+    color: #ff4301;
+}
 
 .navbar-light .navbar-toggler-icon {
     background-image: url(../../img/toggler-icon.svg);

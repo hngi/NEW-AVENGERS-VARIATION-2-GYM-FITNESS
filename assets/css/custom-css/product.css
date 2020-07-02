@@ -1,22 +1,20 @@
 body {
     background-color: #0d0d0d;
-    font-family: Montserrat;
+    font-family: "Montserrat" sans-serif;
     overflow-x: hidden;
 }
-.carousel .carousel-indicators .active {
-    color: #ff4301;
-}
+
 .cta-btn {
     margin-top: 160px;
 }
 
 #pHeader {
     background: url('../../img/Rectangle 65.png') no-repeat center center/cover;
-    height: 42rem;
+    height: 48em;
     overflow-x: hidden;
     
 }
-#pHeader h4 {
+#pHeader h2 {
     color: #ff4301;
     font-weight: 800;
     font-size: 64px;
@@ -51,7 +49,7 @@ body {
 }
 .dumbbell-img {
     background: url('../../img/dumbbell.png') no-repeat center center/cover;
-    min-height: 500px;
+    min-height: 25.0em;
 }
 .dum-info {
     padding-top: 5em;
@@ -62,21 +60,21 @@ body {
 }
 .sm-img {
     background: url('../../img/Smith Machine.png') no-repeat center center/cover;
-    min-height: 500px;
+    min-height: 25.0em;
 }
 .sm-info {
     padding-top: 13em;
 
 }
 .btn-left {
-    margin-left: 12em;
+    margin-left: 10em;
 }
 .pdm-cat  {
     background-color: #171717;
 }
 .pdm-img {
     background: url('../../img/Peck Deck Machine.png') no-repeat center center/cover;
-    min-height: 500px;
+    min-height: 25.0em;
 } 
 .pdm-info {
     padding-top: 13em;
@@ -90,8 +88,12 @@ body {
     font-size: 24px;
     line-height: 29px;
 }
+
 .pagination .active {
     color: #fff;
+}
+.pagination a:hover {
+    background-color: #FF6934;
 }
 
 #features {
@@ -143,6 +145,9 @@ body {
     text-align: center;
     letter-spacing: 0.05em;
     border-radius: 0px;
+}
+.btn-primary:hover {
+    background-color: #ff916b;
 }
 .h-workout1, .h-workout2, .h-workout3 {
     position: relative;
@@ -202,7 +207,7 @@ body {
    } 
 }
 
-@media (max-width:960px) {
+@media (max-width:990px) {
     #pHeader {
         max-width: 100%;
         height: 500px;
@@ -211,24 +216,22 @@ body {
     }
     .dumbbell-img, .sm-img, .pdm-img {
         max-width: 100%;
-        height: auto;
+        height: 500px;
         background-size: 100%;
-        background-position: 50% 50%;
+        background-position: center center;
         padding-top: 0px;
     }
-    #pHeader h4 {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.05em;
-
+    #pHeader h2 {
+    color: #ff4301;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 230px
 }
 #pHeader p {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 29px;
 }
 .hdd-btn {
     font-style: normal;
@@ -236,18 +239,16 @@ body {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.05em;
+    margin-bottom: 1px;
 }
-.hidden h5 {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 0px;
-}
+
 .hidden h5 {
     color: #ff4301;
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
+     margin-top: 0px;
+    padding-bottom: 10px;
 }
 .hidden p {
     color: #fff;
@@ -275,10 +276,13 @@ body {
     }
     .dumbbell-img, .sm-img, .pdm-img {
         max-width: 100%;
-        height: 500px;
+        height: 300px;
         background-size: cover;
         background-position: 50% 50%;
         padding-top: 0px;
+    }
+    .dum-cat, .sm-cat, .pdm-cat {
+        background-color: #4A3F35;
     }
     .gym-cat {
         font-size: 14px;
@@ -292,9 +296,10 @@ body {
     font-size: 10px;
     line-height: 17px;
 }
-   #pHeader h4 {
+   #pHeader h2 {
+        font-style: normal;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 40px;
         line-height: 29px;
         letter-spacing: 0.05em;
 
@@ -302,7 +307,7 @@ body {
 #pHeader p {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
 }
 .hdd-btn {
@@ -311,18 +316,14 @@ body {
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.05em;
-}
-.hidden h5 {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 22px;
+    margin-bottom: 1px;
 }
 .hidden h5 {
     color: #ff4301;
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
-    border-bottom: 3px solid  #0D0D0D;
+    border-bottom: 1px solid  #0D0D0D;
     width: 100%;
 }
 .hidden p {
@@ -343,22 +344,22 @@ body {
  
 @media (min-width:320px) and (max-width: 480px) {
     #pHeader {
-        max-width: 100%;
-        height: 500px;
+        height: 400px;
         background-size: cover;
-        background-position: 50% 50%;
-        margin-top: 0px;
-        margin-bottom:0px;
+        background-position: center center;
+        
+    }
+    .dumbbell-img, .sm-img, .pdm-img {
+        max-width: 100%;
+        height: 50px;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 0px;
     }
     #pCat {
         height:100px;
     }
-    .dumbbell-img, .sm-img, .pdm-img {
-        max-width: 100%;
-        height: auto;
-        background-position: 50% 50%;
-        padding-top: 0px;
-    }
+  
     .gym-cat {
         font-size: 14px;
         line-height: 17px;
@@ -371,7 +372,7 @@ body {
     font-size: 10px;
     line-height: 17px;
 }
-   #pHeader h4 {
+  #pHeader h2 {
         font-weight: bold;
         font-size: 24px;
         line-height: 29px;
@@ -381,8 +382,16 @@ body {
 #pHeader p {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
+}
+.hdd-btn {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    margin-bottom: 1px;
 }
 .hidden h5 {
     color: #ff4301;
@@ -403,6 +412,9 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    letter-spacing: 0.05em;
+    padding: 5px;
 }
+ footer {
+        margin-top: 115em;
+    }
 }
