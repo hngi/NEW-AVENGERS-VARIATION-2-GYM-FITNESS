@@ -125,6 +125,7 @@ body {
     background-repeat: no-repeat;
     color: #ffffff;
   }
+
   /* .main-pricing-section {
     position: absolute;
     top: 314%;
@@ -145,12 +146,15 @@ body {
   .pricing-text-h1 {
     font-size: 1rem;
   }
+
   .pricing-text-h3 {
     font-size: 1rem;
   }
+
   .pricing-spacing {
     margin-right: 60px;
   }
+
   /* .enroll-btn {
     width: 6rem !important;
     height: 38px !important;
@@ -187,6 +191,7 @@ body {
   .main-pricing-text h3 {
     text-align: center;
   }
+
   .header-text-h1 {
     display: none !important;
   }
@@ -231,6 +236,7 @@ body {
     width: 400px;
     margin: 0 auto;
   }
+
   .direction-img {
     margin: 0 auto;
   }
