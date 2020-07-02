@@ -4,29 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/bootstrap-css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
 
-  <!-- Custom Files-->
+  <!-- CSS STYLES -->
+  <link rel="stylesheet" href="./assets/css/bootstrap-css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/animate-css/animate.css">
   <link rel="stylesheet" href="./assets/css/custom-css/footer.css">
   <link rel="stylesheet" href="./assets/css/custom-css/header.css">
-  <link rel="stylesheet" href="./assets/css/custom-css/product.css">
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <title>FitFam | Products</title>
+  <link rel="stylesheet" href="./assets/css/custom-css/main.css">
+  <link rel="stylesheet" href="./assets/css/custom-css/services.css">
+  <title>FitFam | Services </title>
 </head>
 
 <body>
-
-  <!---////////////////////////////////////////////////////////////
-                        NAVIGATIOB FOR THE GYM/FITNESS PAGE
-        /////////////////////////////////////////////////////////////-->
   <header class="header">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/img/logo.png" class="img-fluid" alt="Fitfam gym logo">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo.png" alt="Fitfam gym logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,24 +30,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto font-weight-bold">
-            <li class="nav-item px-3">
+            <li class="nav-item px-3 active">
               <a class="nav-link" href="./index.html">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="./services.html">services</a>
             </li>
             <!-- <li class="nav-item px-3 dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                pages
-                            </a>
-                            <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item  active" href="./products.html">products</a>
-                                <a class="dropdown-item " href="./pricingandplan.html">plans and pricing</a>
-                                <a class="dropdown-item " href="./bmi-calculator.html">bmi calculator</a>
-                                <a class="dropdown-item " href="./404-error.html">404 error</a>
-                            </div>
-                        </li> -->
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                pages
+              </a>
+              <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./products.html">products</a>
+                <a class="dropdown-item" href="./pricingandplan.html">plans and pricing</a>
+                <a class="dropdown-item" href="./bmi-calculator.html">bmi calculator</a>
+                <a class="dropdown-item" href="./404-error.html">404 error</a>
+              </div>
+            </li> -->
             <li class="nav-item px-3">
               <a class="nav-link" href="./products.html">products</a>
             </li>
@@ -68,7 +64,7 @@
               <a class="nav-link" href="./about-us.html">about us</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="./about-us.html">about us</a>
+              <a class="nav-link" href="./contact.html">contact</a>
             </li>
             <li class="nav-item px-3">
               <a class="nav-link" href="./404-error.html">404 error</a>
@@ -79,536 +75,174 @@
     </div>
   </header>
 
-  <!---///////////////////////////////////////////////////////////
-                         PRODUCTS HEADER SECTION
-        /////////////////////////////////////////////////////////////-->
-  <section id="pHeader">
-    <div class="container text-center">
-      <h2>PRODUCTS</h2>
-      <p class="text-white"><strong>WE HAVE A VARIETY OF PRODUCTS TO HELP YOU THROUGH <br>YOUR FITTNESS
-          JOURNEY</strong></p>
+
+
+  <!-- Banner-section -->
+  <section class="banner position-relative">
+    <div class="overlay"></div>
+    <div class="container-fluid position-relative text-placement">
+      <div class="row">
+        <div class="col-6 col-md-6 ml-auto">
+          <div class="wow slideInLeft">
+            <h1 class="banner__title text-uppercase">We train you<br>
+              <span class="inline__color">smarter</span><br> not harder
+            </h1>
+            <a href="#" class="btn btn-banner">Learn More</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <!---End of Product header Section-->
 
-  <!---////////////////////////////////////////////////////////
-                   START OF SECTION FOR PRODUCT CATEGORIES
-        /////////////////////////////////////////////////////////-->
-  <section id="pCat">
-    <div class="container-fluid p-5 p-lg-0">
-      <div class="mx-auto text-white d-flex justify-content-center m-4">
-        <p class="mr-4 mt-2 font-weight-bold gym-cat">Categories:</p>
-        <div class="dropdown">
-          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            ALL PRODUCTS
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Dumbbell</a>
-            <a class="dropdown-item" href="#">Smith machine</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+  <!-- Banner Section End -->
+
+  <!-- Services Section Start -->
+  <section class="section-services">
+    <div class="container-fluid service-heading">
+      <div class="container wow slideInRight">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <h1 class="text-center service__heading--main">Our Services</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8">
+            <h1 class="text-center service__heading--sub text-uppercase">Find our packages below</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container services">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <div class="service__card ">
+                <h5 class="service__card--heading text-center text-uppercase">Personal training</h5>
+                <p class="service__card--text text-center">Whether you’re new to exercising or a fitness
+                  pro, we’re here to provide you with personalized coaching and support inside and
+                  outside the club. Our professional programming, tools, and guidance will help you
+                  stay on track, reach your goals, and get to a healthier place.</p>
+              </div>
+
+              <img src="./assets/img/service__one.jpg" class="card-img-top wow bounceIn" alt="...">
+              <div class="features">
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Personalized</h5>
+                  <p class="feature__text text-center">With personal training, the focus is you. We
+                    design a program specific to your health and fitness goal and work with you to
+                    achieve them.</p>
+                </div>
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Progressive</h5>
+                  <p class="feature__text text-center">Personal training is ideal if you have specific
+                    goals or past injuries you want to work through. This type of training lends
+                    itself to more advanced exercises which requires more focused coaching. We begin
+                    to introduce lower repetition ranges and focus on strength goals.</p>
+                </div>
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Accountability</h5>
+                  <p class="feature__text text-center">Working together, your certified personal
+                    trainer will keep you accountable to achieving your goals and set new ones to
+                    keep you challenged..</p>
+                </div>
+              </div>
+              <div class="card-footer text-center text-uppercase">
+                <a href="#" class="card-footer__text"><span>For more on personal training</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="service__card">
+                <h5 class="service__card--heading text-center text-uppercase">Nutrition</h5>
+                <p class="service__card--text text-center">Whether it's playing football, swimming,
+                  jogging, kick-boxing or walking, active people or athletes need to eat a nutritious,
+                  balanced diet to fuel their body. Following these rules and getting plenty of
+                  practice will help active people and athletes feel great!</p>
+              </div>
+              <img src="./assets/img/service__two.jpg" class="card-img-top wow bounceIn" alt="...">
+
+              <div class="features">
+                <div class="feature">
+                  <h5 class="feature__heading text-center ">Before workouts</h5>
+                  <p class="feature__text text-center"> Have some high carbohydrate foods like
+                    bananas, bagels or fruit juices. These foods are broken down quickly and provide
+                    glucose to the muscles. Ty of cool water before exercise to keep muscles
+                    hydrated. </p>
+                </div>
+                <div class="feature">
+                  <h5 class="feature__heading text-center">During workouts</h5>
+                  <p class="feature__text text-center">Perspiration and exertion deplete the body of
+                    fluids necessary for an optimal performance and lead to dehydration. It is
+                    important to drink plenty of cool water, at least a half a cup of water every 20
+                    minutes of exercise.</p>
+                </div>
+
+                <div class="feature">
+                  <h5 class="feature__heading text-center">After workouts</h5>
+                  <p class="feature__text text-center">No matter the intensity of the exercise, it's
+                    important to drink plenty of water and eat a nutritious, balanced meal that has
+                    lots of carbohydrate rich foods such as grains, pastas, potatoes, vegetables and
+                    fruits.</p>
+                </div>
+              </div>
+              <div class="card-footer text-center text-uppercase">
+                <a href="#" class="card-footer__text"><span>For more on nutrition</span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <div class="service__card">
+                <h5 class="service__card--heading text-center text-uppercase">Team work out</h5>
+                <p class="service__card--text text-center">Team workouts will increase your
+                  effectiveness by providing accountability, and you’ll find yourself pushing harder
+                  in an energy-filled atmosphere. Plus, being surrounded by like-minded members will
+                  increase your motivation and inspiration.</p>
+              </div>
+              <img src="./assets/img/service__three.jpg" class="card-img-top wow bounceIn" alt="...">
+              <div class="features">
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Base</h5>
+                  <p class="feature__text text-center">We'll establish proper movements and a base
+                    level of conditioning to ensure you avoid injury and make progress at your pace.
+                  </p>
+                </div>
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Burn</h5>
+                  <p class="feature__text text-center">A high-energy session that uses cardio and
+                    weights to help burn up to 1,000 calories an hour.</p>
+                </div>
+
+                <div class="feature">
+                  <h5 class="feature__heading text-center">Build</h5>
+                  <p class="feature__text text-center">Get stronger, slimmer and more athletic. Our
+                    trainers will help you focus on form and increased strength without the bulk.
+                  </p>
+                </div>
+              </div>
+              <div class="card-footer text-center text-uppercase">
+                <a href="#" class="card-footer__text"><span>For more on team workout</span></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="row mt-5 dum-cat">
-        <div class="col-12 col-lg-5  d-none d-lg-block dum-info">
-          <h5>Dumbbell</h5>
-          <p>
-            Odio maecenas in porta consequat. Elit<br> tortor odio pellentesque amet leo<br> senectus porta.
-            Hac condimentum ut<br> nibh duis tristique adipiscing et. Facilisis<br> sollicitudin eu, viverra
-            amet ultricies nisl.<br> Quis arcu in aliquet id tempor, in sed<br> dolor.
-          </p>
-          <a href="#" class="btn btn-primary cta-btn text-uppercase" role="button">Buy Now</a>
-        </div>
-        <!--- End of col-md-5 -->
-
-        <div class="col d-block d-lg-none mt-3  order-2 text-center hidden">
-          <h5>Dumbbell</h5>
-          <p>
-            Dictumst felis, a morbi ligula integer eget facilisis. Curabitur elit nunc dui vitae nunc.
-          </p>
-          <a href="#" class="btn btn-primary text-uppercase hdd-btn" role="button">Buy Now</a>
-        </div>
-
-        <div class="col-lg-1"></div>
-
-        <div class="col-12 col-lg-6 order-lg-2 order-1 dumbbell-img">
-
-        </div>
-        <!--- End of col-md-5 -->
-      </div>
-      <!--- End of row -->
-      <div class="row mt-5 sm-cat">
-        <div class="col-12 col-lg-6 sm-img">
-
-        </div>
-        <!--- End of col-md-6 -->
-
-        <div class="col-lg-1"></div>
-
-        <div class="col-12 col-lg-5 sm-info d-none d-lg-block text-left">
-          <h5>Smith Machine</h5>
-          <p>
-            Odio maecenas in porta consequat. Elit<br> tortor odio pellentesque amet leo<br> senectus porta.
-            Hac condimentum ut<br> nibh duis tristique adipiscing et. Facilisis<br> sollicitudin eu, viverra
-            amet ultricies nisl.<br> Quis arcu in aliquet id tempor, in sed<br> dolor.
-          </p>
-          <a href="#" class="btn btn-primary cta-btn text-uppercase btn-left" role="button">Buy Now</a>
-        </div>
-        <!--- End of col-md-6 -->
-
-        <div class="col d-block d-lg-none text-center hidden  mt-3">
-          <h5>Smith Machine</h5>
-          <p>
-            Dictumst felis, a morbi ligula integer eget facilisis. Curabitur elit nunc dui vitae nunc.
-          </p>
-          <a href="#" class="btn btn-primary text-uppercase hdd-btn" role="button">Buy Now</a>
+      <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-12 wow fadeIn">
+            <img src="./assets/img/services__bottom1.jpeg" class="img-fluid" alt="">
+          </div>
         </div>
       </div>
-      <!--- End of row -->
-
-      <div class="row mt-5 pdm-cat">
-        <div class="col-12 col-lg-5 d-none d-lg-block  pdm-info">
-          <h5>Peck Deck Machine</h5>
-          <p>
-            Odio maecenas in porta consequat. Elit<br> tortor odio pellentesque amet leo<br> senectus porta.
-            Hac condimentum ut<br> nibh duis tristique adipiscing et. Facilisis<br> sollicitudin eu, viverra
-            amet ultricies nisl.<br> Quis arcu in aliquet id tempor, in sed<br> dolor.
-          </p>
-          <a href="#" class="btn btn-primary cta-btn text-uppercase" role="button">Buy Now</a>
-        </div>
-        <!--- End of col-md-5 -->
-        <div class="col d-block d-lg-none text-center hidden  mt-3 order-2">
-          <h5>Peck Deck Machine</h5>
-          <p>
-            Dictumst felis, a morbi ligula integer eget facilisis. Curabitur elit nunc dui vitae nunc.
-          </p>
-          <a href="#" class="btn btn-primary text-uppercase hdd-btn" role="button">Buy Now</a>
-        </div>
-
-        <div class="col-12 col-lg-1"></div>
-
-        <div class="col-12 col-lg-6 order-1 order-lg-2 pdm-img">
-
-        </div>
-        <!--- End of col-md-6 -->
-      </div>
-      <!--- End of row -->
-      <span class="m-4 d-flex justify-content-center">
-        <ul class="pagination">
-          <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-left"></i></a></li>
-          <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-double-left"></i></a></li>
-          <li class="page-item"><a href="#" class="page-link">1</a></li>
-          <li class="page-item"><a href="#" class="page-link">2</a></li>
-          <li class="page-item"><a href="#" class="page-link active">3</a></li>
-          <li class="page-item"><a href="#" class="page-link">4</a></li>
-          <li class="page-item"><a href="#" class="page-link">...</a></li>
-          <li class="page-item"><a href="#" class="page-link">19</a></li>
-          <li class="page-item"><a href="#" class="page-link">20</a></li>
-          <li class="page-item"><a href="#" class="page-link">21</a></li>
-          <li class="page-item"><a href="#" class="page-link"><i class="fa fa-angle-right"></i></a></li>
-        </ul>
-      </span>
     </div>
-
   </section>
 
-  <!---Section for Gym/Fitness Featured products -->
-  <section id="features" class="d-none d-lg-block">
-    <div class="feat-header mb-5 text-center">
-      <h6>FEATURED PRODUCTS</h6>
-      <p>
-        Sit dictum at tellus placerat auctor amet nec risus nisi.
-        Aliquam orci egestas eget<br>pharetra, cras sapien metus a. Nibh placerat
-        cursus quis volutpat quisque cras in morbi<br> turpis.
-      </p>
-    </div>
-    <div class="fp-header ml-5">
-      <h6>Heavy workout</h6>
-      <p>
-        Get more variety than ever with our accessories, from warmup to cooldown.<br> Increase your body’s
-        capacities every day, from stability to mobility, from power<br> to speed.
-      </p>
-    </div>
+  <!-- Service section end -->
 
-    <!--- Start of  first slider for Featured Product -->
-    <div class="carousel slide carousel-fluid" id="carouselDisplay1" data-ride="carousel">
-      <!---Carousel indicator-->
-      <ol class="carousel-indicators carousel-indicator-dots rounded-corners">
-        <li class="active" data-target="#carouselDisplay1" data-slide-to="0"></li>
-        <li data-target="#carouselDisplay1" data-slide-to="1"></li>
-        <li data-target="#carouselDisplay1" data-slide-to="2"></li>
-      </ol>
-      <!---Carousel items-->
-      <div class="container-fluid carousel-inner" role="listbox">
-        <div class="carousel-item active slide">
-          <div class="row">
-            <div class="col-md-4 h-workout1">
-              <img class="img-fluid" src="./assets/img/Hyper Extension Bench.png" alt="Hyper Extension Bench">
-              <div class="carousel-btn1">
-                <a href="#" class="btn btn-primary p-btn1" role="button">Hyper Extension<br> Bench</a>
-              </div>
-
-            </div>
-            <div class="col-md-4 h-workout2">
-              <img class="img-fluid" src="./assets/img/Indoor Cycle Bike.png" alt="Indoor Cycle Bike">
-              <div class="carousel-btn2">
-                <a href="#" class="btn btn-primary p-btn2" role="button">Indoor Cycle<br> Bike</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Box System Room.png" alt="Box System Room">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn3" role="button">Box System<br> Room</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item slide">
-          <div class="row">
-            <div class="col-md-4 h-workout1">
-              <img class="img-fluid" src="./assets/img/Hyper Extension Bench.png" alt="Hyper Extension Bench">
-              <div class="carousel-btn1">
-                <a href="#" class="btn btn-primary p-btn1" role="button">Hyper Extension<br> Bench</a>
-              </div>
-
-            </div>
-            <div class="col-md-4 h-workout2">
-              <img class="img-fluid" src="./assets/img/Indoor Cycle Bike.png" alt="Indoor Cycle Bike">
-              <div class="carousel-btn2">
-                <a href="#" class="btn btn-primary p-btn2" role="button">Indoor Cycle<br> Bike</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Box System Room.png" alt="Box System Room">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn3" role="button">Box System<br> Room</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item slide">
-          <div class="row">
-            <div class="col-md-4 h-workout1">
-              <img class="img-fluid" src="./assets/img/Hyper Extension Bench.png" alt="Hyper Extension Bench">
-              <div class="carousel-btn1">
-                <a href="#" class="btn btn-primary p-btn1" role="button">Hyper Extension<br> Bench</a>
-              </div>
-
-            </div>
-            <div class="col-md-4 h-workout2">
-              <img class="img-fluid" src="./assets/img/Indoor Cycle Bike.png" alt="Indoor Cycle Bike">
-              <div class="carousel-btn2">
-                <a href="#" class="btn btn-primary p-btn2" role="button">Indoor Cycle<br> Bike</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Box System Room.png" alt="Box System Room">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn3" role="button">Box System<br> Room</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--- End of carousel -->
-
-    <div class="fp-header mt-4 ml-5">
-      <h6>Popular Selections</h6>
-      <p>
-        Discover our complete range of equipment in our gym facility that will keep you<br> fit and in good
-        shape
-      </p>
-    </div>
-
-    <!--- Start of  second slider for Featured Product -->
-    <div class="carousel slide" id="carouselDisplay2" data-ride="carousel">
-      <!---Carousel indicator-->
-      <ul class="carousel-indicators">
-        <li class="active" data-target="#carouselDisplay2" data-slide-to="0"></li>
-        <li data-target="#carouselDisplay2" data-slide-to="1"></li>
-        <li data-target="#carouselDisplay2" data-slide-to="2"></li>
-      </ul>
-      <!---Carousel items-->
-      <div class="container-fluid carousel-inner" role="listbox">
-        <div class="carousel-item active slide">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Treadmill.png" alt="Treadmill">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Treadmill</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Kettlebells.png" alt="Kettlebells">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Kettlebells</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Stability Ball.png" alt="Stability Ball">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Stability Ball</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item slide">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Treadmill.png" alt="Treadmill">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Treadmill</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Kettlebells.png" alt="Kettlebells">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Kettlebells</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Stability Ball.png" alt="Stability Ball">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Stability Ball</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item slide">
-          <div class="row">
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Treadmill.png" alt="Treadmill">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Treadmill</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Kettlebells.png" alt="Kettlebells">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Kettlebells</a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <img class="img-fluid" src="./assets/img/Stability Ball.png" alt="Stability Ball">
-              <div class="carousel-btn3">
-                <a href="#" class="btn btn-primary p-btn4 mb-2" role="button">Stability Ball</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--- End of second carousel -->
-
-  </section>
-  <!---End of Section for Featured Products -->
-
-  <!--///////////////////////////////////////////
-                Start of Reviews Section
-        /////////////////////////////////////////////-->
-  <section id="reviews" class="d-none d-lg-block">
-    <div class="rv-header mt-5 mb-5 text-center">
-      <h6>REVIEWS</h6>
-      <p>
-        Sit dictum at tellus placerat auctor amet nec risus nisi.
-        Aliquam orci egestas eget<br>pharetra, cras sapien metus a. Nibh placerat
-        cursus quis volutpat quisque cras in morbi<br> turpis.
-      </p>
-    </div>
-
-    <!--- Start of  slider for Review -->
-    <div class="carousel slide" id="CarouselMenu3" data-ride="carousel">
-      <!---Carousel indicator-->
-      <ul class="carousel-indicators">
-        <li class="active" data-target="#CarouselMenu3" data-slide-to="0"></li>
-        <li data-target="#CarouselMenu3" data-slide-to="1"></li>
-        <li data-target="#CarouselMenu3" data-slide-to="2"></li>
-      </ul>
-      <!---Carousel items-->
-      <div class="container-fluid carousel-inner" role="listbox">
-        <div class="carousel-item active slide">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/media1.png" alt="">
-                  <p class="mt-4">
-                    Smith Dave<br>Doctor
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/bulider.png" alt="">
-                  <p class="mt-4">
-                    Mark Jazz<br>Body BUilder
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/mark.png" alt="">
-                  <p class="mt-4">
-                    Anthony Joshua<br>Boxer
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item slide">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/media1.png" alt="">
-                  <p class="mt-4">
-                    Smith Dave<br>Doctor
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/bulider.png" alt="">
-                  <p class="mt-4">
-                    Mark Jazz<br>Body BUilder
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class=" m-3 d-flex align-items-center">
-                  <img class="img-fluid m-3" src="./assets/img/mark.png" alt="">
-                  <p class="mt-4">
-                    Anthony Joshua<br>Boxer
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <p class="card-text ml-3 mr-3">
-                    Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt
-                  </p>
-                  <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View
-                    profile</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item slide">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <div class=" m-3 d-flex align-items-center">
-                <img class="img-fluid m-3" src="./assets/img/media1.png" alt="">
-                <p class="mt-4">
-                  Smith Dave<br>Doctor
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <p class="card-text ml-3 mr-3">
-                  Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt
-                </p>
-                <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View profile</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class=" m-3 d-flex align-items-center">
-                <img class="img-fluid m-3" src="./assets/img/bulider.png" alt="">
-                <p class="mt-4">
-                  Mark Jazz<br>Body BUilder
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <p class="card-text ml-3 mr-3">
-                  Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt
-                </p>
-                <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View profile</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class=" m-3 d-flex align-items-center">
-                <img class="img-fluid m-3" src="./assets/img/mark.png" alt="">
-                <p class="mt-4">
-                  Anthony Joshua<br>Boxer
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <p class="card-text ml-3 mr-3">
-                  Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt
-                </p>
-                <a href="#" class="btn btn-primary mt-5 mb-3 rounded-0" role="button">View profile</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    <!--- End of carousel -->
-  </section>
-  <!---//////////////////////////////////////////////
-                        START OF FOOTER
-        /////////////////////////////////////////////-->
   <footer class="footer">
     <div class="container-fluid custom-wrapper">
       <div class="row mt-5 mx-1 justify-content-between">
@@ -620,33 +254,26 @@
             <img src="./assets/img/mobile/Logo-01.svg" alt="Fitfam logo icon">
           </div>
           <p class="py-2 d-none d-md-block footer-p font-weight-bold">
-            Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit. Imperdiet in egestas eu
-            consectetur eros, turpis. Sapien vitae mauris eu ultrices suspendisse risus, malesuada nibh.
-            Venenatis orci neque quam quisque gravida ultrices. Vestibulum sit pellentesque
-            ultricies risus commodo neque, ac. Quis et dui arcu urna sagittis ipsum volutpat diam. Amet.
-          </p>
+            Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit. Imperdiet in egestas eu consectetur eros,
+            turpis. Sapien vitae mauris eu ultrices suspendisse risus, malesuada nibh. Venenatis orci neque quam quisque
+            gravida ultrices. Vestibulum sit pellentesque
+            ultricies risus commodo neque, ac. Quis et dui arcu urna sagittis ipsum volutpat diam. Amet. </p>
         </div>
         <div class="col-12 text-center text-lg-left col-md-2 col-lg-2 pt-3 py-md-0 my-border d-md-none d-lg-block">
           <h5 class="pt-3 pb-1 mb-0 d-none d-md-block">Explore</h5>
           <ul class="pl-0 py-3">
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./index.html">Home</a>
-            </li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./index.html">Home</a></li>
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./services.html">services</a></li>
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">pages</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./meet_team.html">our
-                team</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./about-us.html">about
-                us</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./meet_team.html">our team</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./about-us.html">about us</a></li>
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./contact.html">contact</a></li>
             <li class="py-1 d-none d-md-block font-weight-bold"><a href="./index.html">Home</a></li>
             <li class="py-1 d-none d-md-block font-weight-bold"><a href="./services.html">services</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./pricingandplan.html">plans</a>
-            </li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./bmi-calculator.html">bm
-                calculator</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./pricingandplan.html">plans</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./bmi-calculator.html">bm calculator</a></li>
             <li class="py-1 d-none d-md-block font-weight-bold"><a href="./products.html">products</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./meet_team.html">meet the team</a>
-            </li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./meet_team.html">meet the team</a></li>
             <li class="py-1 d-none d-md-block font-weight-bold"><a href="./about-us.html">about us</a></li>
             <li class="py-1 d-none d-md-block font-weight-bold"><a href="./contact.html">contact us</a></li>
           </ul>
@@ -758,23 +385,29 @@
 
           <ul class="d-flex justify-content-between py-4 px-2 subnav mb-0">
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">site map</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">privacy policy</a>
-            </li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">privacy policy</a></li>
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">careers</a></li>
 
           </ul>
 
-          <span class="float-md-left mt-3 mt-xl-5 text-center">&copy; 2020 FitFam Gym. All rights
-            reserved</span>
+          <span class="float-md-left mt-3 mt-xl-5 text-center">&copy; 2020 FitFam Gym. All rights reserved</span>
         </div>
       </div>
     </div>
     </div>
   </footer>
-  <script src="https://kit.fontawesome.com/fc9346f24c.js" crossorigin="anonymous"></script>
+
+  <!-- end of footer -->
+
+  <!-- JS SCRIPTS -->
+
   <script src="./assets/js/vendor-js/popper.js"></script>
   <script src="./assets/js/vendor-js/jquery.js"></script>
   <script src="./assets/js/vendor-js/bootstrap.min.js"></script>
+  <script src="./assets/js/vendor-js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
