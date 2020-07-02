@@ -349,7 +349,7 @@ body {
   }
 }
 
-@media (max-width: 520px) and (min-width: 360px) {
+@media (max-width: 520px) {
   .main-bg {
     position: relative;
     background: url('../../img/mobile/main-bg.svg') no-repeat center
