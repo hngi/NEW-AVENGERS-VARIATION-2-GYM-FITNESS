@@ -20,7 +20,7 @@ body {
 .index-header {
   min-height: 900px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-    url('../img/background.png');
+    url('../../img/background.png');
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
@@ -55,7 +55,7 @@ body {
 .slanted {
   width: 240px;
   height: 456px;
-  background-image: url('../img/slantedrectangle.png');
+  background-image: url('../../img/slantedrectangle.png');
   background-repeat: no-repeat;
   color: #ffffff;
   margin: 0 auto;
@@ -121,7 +121,7 @@ body {
     width: 240px;
     height: 456px;
     margin: 0 auto;
-    background-image: url('../img/slantedrectangle-small.png');
+    background-image: url('../../img/slantedrectangle-small.png');
     background-repeat: no-repeat;
     color: #ffffff;
   }
