@@ -36,6 +36,7 @@ a.dropdown-item.active {
 header nav ul li a {
   text-transform: uppercase;
   color: #FFFFFF !important;
+  font-size: .6rem !important;
 }
 
 header {
