@@ -1,0 +1,355 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+/* Base styling */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    /* outline: 1px solid red; */
+}
+
+
+html {
+    box-sizing: inherit;
+
+}
+
+body {
+    width: 100%;
+}
+
+/* Hero Section Start */
+.banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/service__hero.jpg');
+    height: 24vh;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-placement {
+    top: 30%;
+}
+
+.banner__title{
+    font-family:"Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.inline__color {
+    color: #FF4301;
+}
+
+.btn {
+    padding: 4.8px 8px;
+    height: 20px;
+    background-color: #FF4301;
+    color: #FFFFFF;
+    height: 30px
+    
+}
+.btn-banner {
+    font-family:"Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+}
+/* Hero Section End */
+
+/* Services Section Styling Start */
+
+.section-services {
+  background-color:  #0A0A0A;
+}
+.service-heading {
+    padding-top: 34px;
+    padding-bottom: 37px;
+}
+.container {
+    padding: 0;
+}
+.service__heading--main {
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF4301;
+}
+.service__heading--sub {
+    font-family:"Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.services {
+    margin-top: 19px;
+    margin-bottom: 21px;
+}
+
+.container>.row>.col:not(:last-child) {
+    margin-bottom: 25px;
+}
+.col {
+    padding: 0;
+}
+.card {
+    background-color: #282727;
+}
+.service__card {
+    margin-top: 27px;
+    margin-bottom: 34px;
+}
+
+.service__card--heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+}
+
+.service__card--text {
+    margin-left: 28px;
+    margin-right: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #fffdfd
+}
+
+.features{
+    margin-top: 36.9px;
+}
+
+
+.features>.feature:not(:last-child) {
+    margin-bottom: 19px;
+}
+.features>.feature:last-child {
+    margin-bottom: 55px;
+}
+.feature__heading {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFDFD;
+    margin-bottom: 20px;
+}
+
+.feature__text {
+    margin-left: 20px;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: #fffdfd;
+}
+
+.card-footer {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 32px;
+}
+
+.card-footer__text {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FF4301;
+}
+
+
+/* Services Section Styling End */
+
+
+
+
+/* Media queries */
+
+@media (max-width: 320px ) {
+    .banner__title  {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner {
+        background-image: url(../../img/service__hero.jpg);
+        height: 60vh;
+    }
+    .banner__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .text-placement {
+        top: 40%;
+    }
+    .btn {
+        height: 50px;
+    }
+    .btn-banner {
+        font-size: 20px;
+    }
+
+    .container>.row>.col:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .col {
+        padding: 0 15px;
+    }
+    .card {
+        border: 1px solid #FFFFFF;
+    }
+    
+    .service__card {
+        height: 300px;
+    }
+    .service__card--heading{
+        color: #FF4301; 
+    }
+    .feature {
+        height: 220px;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+
+    .banner {
+        background-image: url(../../img/service__hero.jpg);
+        height: 83.3vh;
+    }
+
+    
+    .banner__title  {
+        font-size: 54px;
+        line-height: 78px;
+    }
+    .btn {
+        padding: 16px 28px;
+        height: 54px;
+    }
+    
+    .btn-banner {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .service__heading {
+        padding-top: 43px;
+        padding-bottom: 40px;
+    }
+    .service__heading--main {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .service__heading--sub {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .services {
+        margin-top: 64px;
+        margin-bottom: 53px;
+    }
+    .service__card {
+        margin-top: 61px;
+        margin-bottom: 53px;
+    }
+
+    .service__card--heading {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 28px;
+    }
+    .service__card--text {
+        font-size: 18px;
+        line-height: 22px;
+        color: #fffdfd;
+    }
+
+    .features {
+        margin-top: 93px;
+    }
+
+    .features>.feature:not(:last-child) {
+        margin-bottom: 125px;
+    }
+
+    .feature__heading {
+        font-size: 30px;
+        line-height: 38px;
+        color: #FFFDFD;
+        margin-bottom: 23px;
+    }
+    .feature__text {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: "Montserrat", sans-serif;
+        color: #fffdfd;
+    }
+
+    .card-footer__text {
+        font-size: 14px;
+        line-height: 17px;
+        color: #FF4301;
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner__title  {
+        font-size: 64px;
+        line-height: 78px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
