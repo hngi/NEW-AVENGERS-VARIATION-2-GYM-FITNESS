@@ -1,84 +1,87 @@
 footer {
-    background: #0D0D0D;
-    color: #FFFFFF;
+  background: #0D0D0D;
+  color: #FFFFFF;
 }
 
 footer h5 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-    color: #FF4301;
-    text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FF4301;
+  text-transform: uppercase;
 }
 
 footer ul li {
-    list-style: none;
+  list-style: none;
 }
 
 footer ul li a {
-    color: #FFFFFF;
-    text-transform: uppercase;
-    font-size: 14px;
-line-height: 17px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 footer ul li a:hover {
-    color: #FF4301;
-    text-decoration: none;
+  color: #FF4301;
+  text-decoration: none;
 }
 
 footer span {
-    color: #FF4301;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: capitalize;
+  color: #FF4301;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
 }
 
 footer .btn-subscribe {
-    background: #FF4301;
-    color: #FFFFFF;
+  background: #FF4301;
+  color: #FFFFFF;
 }
-.custom-wrapper {
-        padding: 1.5rem 0rem;
-    }
 
-.footer-p{
-    font-size: 15px;
-    line-height: 15px;
+.custom-wrapper {
+  padding: 1.5rem 0rem;
+}
+
+.footer-p {
+  font-size: 15px;
+  line-height: 15px;
 }
 
 
 @media (max-width: 520px) and (min-width: 360px) {
-   
-    .my-border{
-        border-top: 2px solid #FF4301;
-    }
 
-    .subnav li a{
+  .my-border {
+    border-top: 2px solid #FF4301;
+  }
+
+  .subnav li a {
     color: #FF4301;
 
-    }
-    footer span {
-        color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-    }
-    footer span{
+  }
+
+  footer span {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer span {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    }
-    footer svg {
-        width: 15px;
-        padding: 0px;
-    }
-    .custom-wrapper {
-        padding: 1.5rem 0rem;
-    }
+  }
+
+  footer svg {
+    width: 15px;
+    padding: 0px;
+  }
+
+  .custom-wrapper {
+    padding: 1.5rem 0rem;
+  }
 }
-
-

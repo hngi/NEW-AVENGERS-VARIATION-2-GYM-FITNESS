@@ -1,71 +1,76 @@
 header {
-    background: #0D0D0D;
-    padding: 0 8.75rem;
+  background: #0D0D0D;
+  padding: 0 8.75rem;
 }
 
 header .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 .navbar-nav .nav-link:hover {
-    background-color: #ff4301 !important;
+  background-color: #ff4301 !important;
 }
+
 .navbar-light .navbar-nav .nav-link.active {
-    color: #ff916b !important;
+  color: #ff916b !important;
 }
-a.dropdown-item.active{
-    background-color: #ff4301 !important;
+
+a.dropdown-item.active {
+  background-color: #ff4301 !important;
 }
+
 .carousel .carousel-indicators .active {
-    color: #ff4301;
+  color: #ff4301;
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url(../../img/toggler-icon.svg);
+  background-image: url(../../img/toggler-icon.svg);
 }
 
 .navbar-light .navbar-toggler {
-    color: #FFFFFF;
-    border: none;
+  color: #FFFFFF;
+  border: none;
 }
 
 header nav ul li a {
-    text-transform: uppercase;
-    color: #FFFFFF !important;
+  text-transform: uppercase;
+  color: #FFFFFF !important;
 }
 
 header {
-    background: #0d0d0d;
-    opacity: 0.95;
+  background: #0d0d0d;
+  opacity: 0.95;
 }
 
 .header .navbar {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .header .nav-link {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 header .dropdown-menu {
-    background: #000000 !important;
-    z-index: 3;
+  background: #000000 !important;
+  z-index: 3;
 }
 
 header .dropdown-menu a {
-    background: #000000 !important;
-    color: #FFFFFF !important;
+  background: #000000 !important;
+  color: #FFFFFF !important;
 }
 
 header .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 576px) {
-    header {
-        padding: 0 1.75rem;
-    }
-    header img {
-        width: 50vw;
-    }
+  header {
+    padding: 0 1.75rem;
+  }
+
+  header img {
+    width: 50vw;
+  }
 }
