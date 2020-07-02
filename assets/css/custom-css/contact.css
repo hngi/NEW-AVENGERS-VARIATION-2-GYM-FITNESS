@@ -1,3 +1,6 @@
+/* START OF OVERALL STYLES */
+
+
 html,
 body,
 * {
@@ -10,6 +13,9 @@ body {
   font-family: 'Montserrat' !important;
 }
 
+/* END OF OVERALL STYLES */
+
+/* START OF HERO SECTION STYLES */
 .hero {
   background-image: url(../../img/contact_img.png);
   height: 558px;
@@ -34,6 +40,10 @@ body {
   font-size: 28px;
   line-height: 34px;
 }
+
+/* END OF HERO SECTION STYLES */
+
+/* START OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
 
 .profile__section {
   padding-left: 3.5% !important;
@@ -66,6 +76,10 @@ body {
   font-size: 18px;
   line-height: 22px;
 }
+
+/* END OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
+
+/* START OF FEEDBACK SECTION STYLES */
 
 .feedback {
   font-style: normal;
@@ -169,7 +183,7 @@ textarea {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  line-height: 22px; 
+  line-height: 22px;
   color: #000000;
   margin-left: 5%;
 }
@@ -185,6 +199,9 @@ textarea {
   margin-left: 5%;
 }
 
+/* END OF FEEDBACK SECTION STYLES */
+
+/* START OF MAPS SECTION STYLES */
 
 .google__maps {
   position: relative;
@@ -201,8 +218,15 @@ textarea {
   height: 609px !important;
 }
 
+/* END OF MAPS SECTION STYLES */
+
+/* START OF MEDIA QUERIES */
+
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+  /* START OF HERO SECTION STYLES */
 
   .hero {
     height: 280px !important;
@@ -221,6 +245,10 @@ textarea {
     font-size: 15px;
     line-height: 15px;
   }
+
+  /* END OF HERO SECTION STYLES */
+
+  /* START OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
 
   .profile__section {
     margin-top: .1rem !important;
@@ -269,6 +297,11 @@ textarea {
     font-size: 14px;
     line-height: 17px;
   }
+
+
+  /* END OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
+
+  /* START OF FEEDBACK SECTION STYLES */
 
   .feedback__container {
     margin-top: .1rem !important;
@@ -328,6 +361,10 @@ textarea {
     border-radius: 0%;
   }
 
+  /* END OF FEEDBACK SECTION STYLES */
+
+  /* START OF MAPS SECTION STYLES */
+
   .google__maps {
     position: relative;
     height: 270px !important;
@@ -345,10 +382,15 @@ textarea {
     padding: 0% !important;
   }
 
+  /* END OF MAPS SECTION STYLES */
+
 }
 
 
 @media (min-width: 481px) and (max-width: 767px) {
+
+  /* START OF HERO SECTION STYLES */
+
   .hero {
     height: 200px;
   }
@@ -366,6 +408,10 @@ textarea {
     font-size: 15px;
     line-height: 15px;
   }
+
+  /* END OF HERO SECTION STYLES */
+
+  /* START OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
 
   .profile__section {
     margin-top: .1rem !important;
@@ -409,13 +455,16 @@ textarea {
   .profile img {
     width: 107.21px;
     height: 101.9px;
-    ;
   }
 
   .administrator {
     font-size: 14px;
     line-height: 17px;
   }
+
+  /* END OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
+
+  /* START OF FEEDBACK SECTION STYLES */
 
   .feedback__container {
     margin-top: .1rem !important;
@@ -475,6 +524,10 @@ textarea {
     border-radius: 0%;
   }
 
+  /* END OF FEEDBACK SECTION STYLES */
+
+  /* START OF MAPS SECTION STYLES */
+
   .google__maps {
     position: relative;
     height: 208px !important;
@@ -492,10 +545,14 @@ textarea {
     padding: 0% !important;
   }
 
+  /* END OF MAPS SECTION STYLES */
+
 }
 
 
 @media only screen and (max-width: 480px) {
+
+  /* START OF HERO SECTION STYLES */
 
   .hero {
     height: 122px;
@@ -515,6 +572,10 @@ textarea {
     line-height: 15px;
   }
 
+  /* END OF HERO SECTION STYLES */
+
+  /* START OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
+
   .profile__section {
     margin-top: .1rem !important;
   }
@@ -564,6 +625,10 @@ textarea {
     font-size: 14px;
     line-height: 17px;
   }
+
+  /* END OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
+
+  /* START OF FEEDBACK SECTION STYLES */
 
   .feedback__container {
     margin-top: .1rem !important;
@@ -623,6 +688,10 @@ textarea {
     border-radius: 0%;
   }
 
+  /* END OF FEEDBACK SECTION STYLES */
+
+  /* START OF MAPS SECTION STYLES */
+
   .google__maps {
     position: relative;
     height: 208px !important;
@@ -639,4 +708,8 @@ textarea {
     padding: 0% !important;
   }
 
+  /* END OF MAPS SECTION STYLES */
+
 }
+
+/* END OF MEDIA QUERIES */
