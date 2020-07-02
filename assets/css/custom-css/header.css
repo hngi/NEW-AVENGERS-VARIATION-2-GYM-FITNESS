@@ -3,25 +3,37 @@ header {
     padding: 0 8.75rem;
 }
 
+header .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../../img/toggler-icon.svg);
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFFFFF;
+    border: none;
+}
+
 header nav ul li a {
     text-transform: uppercase;
     color: #FFFFFF !important;
 }
 
-header{
+header {
     background: #0d0d0d;
     opacity: 0.95;
 }
-
 
 .header .navbar {
     padding: 0.5rem 0;
 }
 
-.header .nav-link{
-      color: #ffffff !important;
- }
-
+.header .nav-link {
+    color: #ffffff !important;
+}
 
 header .dropdown-menu {
     background: #000000 !important;
@@ -35,4 +47,13 @@ header .dropdown-menu a {
 
 header .dropdown-toggle::after {
     display: none;
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 0 1.75rem;
+    }
+    header img {
+        width: 50vw;
+    }
 }
