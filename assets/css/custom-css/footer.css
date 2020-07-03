@@ -40,6 +40,19 @@ footer span {
 footer .btn-subscribe {
   background: #FF4301;
   color: #FFFFFF;
+  background: #FF4301;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  text-align: center;
+  
+  /* Secondary Color 3 */
+  color: #FFFFFF;
 }
 
 .custom-wrapper {

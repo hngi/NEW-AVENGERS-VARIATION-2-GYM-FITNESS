@@ -37,6 +37,9 @@ header nav ul li a {
   text-transform: uppercase;
   color: #FFFFFF !important;
   font-size: .6rem !important;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: bold !important;
 }
 
 header {

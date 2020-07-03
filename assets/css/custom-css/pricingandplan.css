@@ -29,9 +29,10 @@ body {
 .header-text-h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 40px;
   line-height: 73px;
   letter-spacing: 0.05em;
+  font-style: normal;
+  font-size: 60px;
 }
 
 .header-text-h1-hide {
@@ -39,8 +40,9 @@ body {
 }
 
 .header-text-h2 {
+  font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 36px;
   line-height: 44px;
   letter-spacing: 0.05em;
   color: #ff4301;

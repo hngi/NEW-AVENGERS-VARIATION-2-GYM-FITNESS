@@ -20,7 +20,9 @@ body {
   font-weight: 800;
   font-size: 64px;
   line-height: 78px;
-  margin-top: 230px
+  margin-top: 230px;
+  font-style: normal;
+  letter-spacing: 0.05em;
 }
 
 #pHeader p {
@@ -49,12 +51,12 @@ body {
 .dum-info h5,
 .sm-info h5,
 .pdm-info h5 {
-  color: #ff4301;
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
   line-height: 59px;
   letter-spacing: 0.05em;
+  color: #FF4606;
 }
 
 .dumbbell-img {
@@ -132,7 +134,7 @@ body {
 
 .feat-header p,
 .rv-header p {
-  color: #fff;
+  color: #FFFEFE;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
