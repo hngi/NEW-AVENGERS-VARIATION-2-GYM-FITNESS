@@ -37,7 +37,7 @@ The application was deployed to netlify.
 * **Olabode Olaniyi David**  (https://github.com/Nierowheezy) - Slack Username: **@Niero**
 * **Olaide Gbeyide** (https://github.com/olaidegbeyide) - Slack Username: **@Olaide**
 * **Tony Ouma** (https://github.com/TonyOuma) - Slack Username: **@Ouma**
-* **Ikechukwu okonkwo** (https://github.com/Afej) - Slack Username: **@Afej**
+* **Joshua Afekuro** (https://github.com/Afej) - Slack Username: **@Afej**
 
 
 
