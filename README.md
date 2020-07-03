@@ -10,7 +10,7 @@
     5. Create a new branch locally name it according to the the instruction on the user story
     6. Once you are done working run "git pull" locally.
     7. Push your code to the repository.
-    8. Make a Pull request for the master branch. 
+    8. Make a Pull request for the develop branch. 
     
 
 ## Design
