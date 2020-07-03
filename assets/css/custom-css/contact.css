@@ -645,7 +645,7 @@ textarea {
     letter-spacing: 0.085em;
   }
 
-  ::placeholder {
+  .feedback__container .form ::placeholder {
 
     font-style: normal;
     font-weight: normal;
