@@ -22,6 +22,7 @@ html {
 
 body {
   width: 100%;
+  height: 100%;
 }
 
 /* Hero Section Start */
@@ -36,15 +37,10 @@ body {
 .overlay {
   background: rgba(0, 0, 0, 0.5);
   content: '';
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.text-placement {
-  top: 30%;
 }
 
 .banner__title {
@@ -224,10 +220,6 @@ body {
   .banner__title {
     font-size: 40px;
     line-height: 40px;
-  }
-
-  .text-placement {
-    top: 40%;
   }
 
   .btn {
