@@ -1,6 +1,9 @@
 header {
   background: #0D0D0D;
   padding: 0 8.75rem;
+  z-index: 999;
+  position: relative;
+  font-style: normal !important;
 }
 
 header .container-fluid {
@@ -59,6 +62,10 @@ header .dropdown-menu {
 header .dropdown-menu a {
   background: #000000 !important;
   color: #FFFFFF !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 header .dropdown-toggle::after {
