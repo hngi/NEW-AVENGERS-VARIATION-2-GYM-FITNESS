@@ -30,8 +30,9 @@ body {
 .hero {
   background-image: url(../../img/contact_img.png);
   height: 558px;
-  object-fit: cover;
-  object-position: 50% 50%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
 }
 
 .caption {
@@ -88,6 +89,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
+  /* margin-bottom: 10rem !important; */
 }
 
 /* END OF WE ARE ALWAYS AVAILABLE SECTION STYLES */
@@ -240,22 +242,46 @@ textarea {
   }
 
   .caption {
-    padding-top: 19%;
+    padding-top: 15% !important;
   }
 
   .contact__title {
-    font-size: 5rem;
-    line-height: 4rem;
+    font-size: 6rem !important;
+    line-height: 7rem !important;
   }
 
   .contact__paragraph {
-    font-size: 2rem;
-    line-height: 1.5rem;
+    font-size: 3rem !important;
+    line-height: 3rem !important;
   }
 
+  .always__available {
+    font-style: normal;
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+  
+  .lorem__ipsum {
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .profile img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+  }
+  
   .administrator {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+
+  .number {
     font-size: 1.5rem;
-    line-height: 1rem;
   }
 
 }
@@ -479,8 +505,8 @@ textarea {
   }
 
   .contact__title {
-    font-size: 40px;
-    line-height: 29px;
+    font-size: 40px !important;
+    line-height: 29px !important;
   }
 
   .contact__paragraph {
