@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 body {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
 }
 
 .main-bg {
@@ -56,7 +60,7 @@ body {
 
 .history .history-wrapper .lead-paragraph {
   padding-top: 70px;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 30px;
   line-height: 37px;
   letter-spacing: 0.05em;
@@ -167,38 +171,13 @@ body {
   letter-spacing: 0.05em;
 }
 
-.featured-sessions {
-  background: rgba(13, 13, 13, 0.96);
-  padding: 139px 0;
-}
-
-.featured-sessions .lead-text {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 37px;
-  letter-spacing: 0.05em;
-  color: #ff4301;
-  margin-bottom: 63px;
-}
-
-.featured-sessions .featured-img {
-  padding: 0 !important;
-}
-
-.featured-sessions span {
-  color: #f57d20;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0.05em;
-  padding-right: 121px;
-  margin-top: 30px;
-}
-
 .newsletter {
   position: relative;
-  background: url('../../img/newsletter-bg.svg') no-repeat center center/cover;
+  /* background: url('../../img/Rectangle_20.png'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../img/Rectangle_20.png') no-repeat center center/cover;
   height: 681px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .newsletter .newsletter-wrapper {
@@ -488,68 +467,9 @@ body {
     line-height: 15px;
   }
 
-  .featured-sessions {
-    padding: 20px 0;
-  }
-
-  .featured-sessions .lead-text {
-    display: none;
-  }
-
-  .featured-sessions .img-grid {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-  }
-
-  .featured-sessions .img-grid :first-child {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / span 2;
-  }
-
-  .featured-sessions .img-grid :nth-child(3) {
-    -ms-grid-row: 3;
-    grid-row: 3;
-  }
-
-  .featured-sessions .img-grid :nth-child(4) {
-    -ms-grid-column: 2;
-    grid-column: 2;
-    -ms-grid-row: 2;
-    grid-row: 2;
-  }
-
-  .featured-sessions .img-grid :nth-child(5) {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1 / span 1;
-    -ms-grid-row: 2;
-    grid-row: 2;
-  }
-
-  .featured-sessions .img-grid :last-child {
-    -ms-grid-row: 3;
-    grid-row: 3;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 2;
-    grid-column: 2 / span 2;
-  }
-
-  .featured-sessions .img-grid img {
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-
-  .featured-sessions span {
-    font-size: 12px;
-    line-height: 15px;
-    padding-right: 22px;
-    margin-top: 13px;
-  }
-
   .newsletter {
-    background: black;
     height: 169px;
+
   }
 
   .newsletter .newsletter-wrapper {
