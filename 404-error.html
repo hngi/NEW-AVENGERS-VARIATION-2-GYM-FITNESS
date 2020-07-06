@@ -4,21 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../assets/css/bootstrap-css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../assets/css/custom-css/footer.css">
-  <link rel="stylesheet" href="../../assets/css/custom-css/header.css">
-  <link rel="stylesheet" href="../../assets/css/custom-css/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-  <title>Gym | Fitness</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FitFam | Error</title>
 </head>
+<!-- CSS STYLES -->
+
+<link rel="stylesheet" href="./assets/css/bootstrap-css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/animate-css/animate.css">
+<link rel="stylesheet" href="./assets/css/custom-css/footer.css">
+<link rel="stylesheet" href="./assets/css/custom-css/header.css">
+<link rel="stylesheet" href="./assets/css/custom-css/main.css">
+<link rel="stylesheet" href="./assets/css/custom-css/404-error.css">
 
 <body>
 
   <header class="header">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="../../assets/img/logo.png" alt="Fitfam gym logo">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo.png" alt="Fitfam gym logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +31,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto font-weight-bold">
             <li class="nav-item px-3 active">
-              <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html">home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">services</a>
+              <a class="nav-link" href="./services.html">services</a>
             </li>
             <li class="nav-item px-3 dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -38,20 +42,20 @@
                 pages
               </a>
               <div class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">products</a>
-                <a class="dropdown-item" href="#">plans and pricing</a>
-                <a class="dropdown-item" href="#">bmi calculator</a>
-                <a class="dropdown-item" href="#">404 error</a>
+                <a class="dropdown-item" href="./products.html">products</a>
+                <a class="dropdown-item" href="./pricingandplan.html">plans and pricing</a>
+                <a class="dropdown-item" href="./bmi-calculator.html">bmi calculator</a>
+                <a class="dropdown-item active" href="./404-error.html">404 error</a>
               </div>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">our team</a>
+              <a class="nav-link" href="./meet_team.html">our team</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">about us</a>
+              <a class="nav-link" href="./about-us.html">about us</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link" href="./contact.html">contact</a>
             </li>
           </ul>
         </div>
@@ -59,7 +63,25 @@
     </div>
   </header>
 
+  <!-- Error Message Section Start -->
+  <div class="banner position-relative d-flex align-items-center">
+    <div class="overlay"></div>
+    <div class="container-fluid position-absolute">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <h1 class="text-uppercase error__message--heading mb-3 mb-md-4 mb-lg-5 wow slideInLeft">4<span
+                class="figure__style">0</span>4 error</h1>
+            <p class="text-uppercase error__message--sub wow slideInRight">Sorry, but the page you are
+              looking for is not found</p>
+            <a href="#" class="btn btn-home text-center text-uppercase  wow bounce">Go to home</a>
 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Error Messsage Section End -->
 
   <!-- begin footer -->
 
@@ -68,10 +90,10 @@
       <div class="row mt-5 mx-1 justify-content-between">
         <div class="col-md-4 col-lg-3 pl-md-0 pr-sm-0">
           <div class="pt-0 mb-4 d-none d-md-block">
-            <img src="../../assets/img/logo.png" alt="Fitfam logo icon">
+            <img src="./assets/img/logo.png" alt="Fitfam logo icon">
           </div>
           <div class="py-3 d-block d-sm-block d-md-none text-center">
-            <img src="../../assets/img/mobile/Logo-01.svg" alt="Fitfam logo icon">
+            <img src="./assets/img/mobile/Logo-01.svg" alt="Fitfam logo icon">
           </div>
           <p class="py-2 d-none d-md-block footer-p font-weight-bold">
             Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit. Imperdiet in egestas eu
@@ -83,20 +105,20 @@
         <div class="col-12 text-center text-lg-left col-md-2 col-lg-2 pt-3 py-md-0 my-border d-md-none d-lg-block">
           <h5 class="pt-3 pb-1 mb-0 d-none d-md-block">Explore</h5>
           <ul class="pl-0 py-3">
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">Home</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">services</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./index.html">Home</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./services.html">services</a></li>
             <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">pages</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">our team</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">about us</a></li>
-            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="">contact</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">Home</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">services</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">plans</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">bm calculator</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">products</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">meet the team</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">about us</a></li>
-            <li class="py-1 d-none d-md-block font-weight-bold"><a href="">contact us</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./meet_team.html">our team</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./about-us.html">about us</a></li>
+            <li class="py-1 d-block d-sm-block d-md-none font-weight-bold"><a href="./contact.html">contact</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./index.html">Home</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./services.html">services</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./pricingandplan.html">plans</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./bmi-calculator.html">bm calculator</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./products.html">products</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./meet_team.html">meet the team</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./about-us.html">about us</a></li>
+            <li class="py-1 d-none d-md-block font-weight-bold"><a href="./contact.html">contact us</a></li>
           </ul>
         </div>
         <div class="col col-md-4 col-lg-3 p-lg-0 px-3">
@@ -221,10 +243,19 @@
   </footer>
 
   <!-- end of footer -->
-  <script src="../../assets/js/vendor-js/popper.js"></script>
-  <script src="../../assets/js/vendor-js/jquery.js"></script>
-  <script src="../../assets/js/vendor-js/bootstrap.min.js"></script>
 
+  <!-- JS SCRIPTS -->
+
+  <script src="./assets/js/vendor-js/jquery.js"></script>
+  <script src="./assets/js/vendor-js/popper.js"></script>
+  <script src="./assets/js/vendor-js/bootstrap.min.js"></script>
+
+
+  <script src="./assets/js/vendor-js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
