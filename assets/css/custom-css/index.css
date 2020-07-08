@@ -38,10 +38,10 @@ body {
   height: 100%;
 }
 
-.landing-page__heading {
+/* .landing-page__heading {
   padding-right: 0;
   padding-left: 10px;
-}
+} */
 
 .landing-page__heading--2 {
   font-style: normal;
@@ -56,7 +56,7 @@ body {
 .landing-page__heading--1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 80px;
   line-height: 49px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
@@ -161,6 +161,7 @@ body {
 
 .service {
   background-color: #0A0A0A;
+
 }
 
 .space {
@@ -291,7 +292,8 @@ body {
 
 .plan {
   border: 1px solid white;
-  background-color: #171717;
+  background-color: #0A0A0A;
+  border-radius: 16px;
 }
 
 .plan__heading {
@@ -311,6 +313,19 @@ body {
   font-size: 30px;
   line-height: 37px;
   color: #FF4301;
+}
+
+.plan__menu ul {
+  list-style: none;
+}
+
+.plan__menu ul li::before {
+  content: "\2022";
+  color: #FF4301;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1.3em;
 }
 
 #plans {
@@ -338,15 +353,15 @@ body {
   margin-bottom: 10px;
 }
 
-.gallery1 {
+/* .gallery1 {
   background-image: url(../../img/weight1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 251px;
   width: 100%
-}
-
+} */
+/* 
 .gallery2 {
   background-image: url(../../img/ladylift.jpg);
   background-size: cover;
@@ -354,51 +369,56 @@ body {
   background-repeat: no-repeat;
   height: 350px;
   width: 100%
-}
+} */
 
-.gallery3 {
+/* .gallery3 {
   background-image: url(../../img/lady_weight.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 241px;
   width: 100%
-}
+} */
 
 .gallery4 {
   background-image: url(../../img/weight2.jpg);
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center center;
   background-repeat: no-repeat;
-  height: 332px;
+  height: auto;
   width: 100%
 }
 
-.gallery5 {
+/* .gallery5 {
   background-image: url(../../img/group__lift.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 421px;
   width: 100%
-}
+} */
 
-.gallery6 {
+/* .gallery6 {
   background-image: url(../../img/gallery6.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 243px;
   width: 100%
-}
+} */
 
 .section-experts {
   background-color: rgba(13, 13, 13, 0.96);
+  
 }
 
 .experts {
   padding-bottom: 50px;
-  padding-top: 42px
+  padding-top: 42px;
+  /* padding-right: 0 !important;
+  padding-left: 0 !important; */
+  /* margin-right: 0 !important;
+  margin-left: 0 !important; */
 }
 
 .expert-one {
@@ -611,24 +631,24 @@ hr {
   }
 
   .landing-page__heading--2 {
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 2.8rem;
+    line-height: 2.7rem;
     margin-bottom: 17px;
   }
 
   .landing-page__heading--1 {
-    font-size: 60px;
-    line-height: 73px;
+    font-size: 6rem;
+    line-height: 6rem;
     margin-bottom: 17px;
   }
 
   .btn {
-    height: 54px;
-    font-size: 18px;
+    height: 4rem;
+    font-size: 1.75rem;
     line-height: 22px;
     padding-left: 27px;
     padding-right: 28px;
-    padding-top: 16px;
+    padding-top: 18px;
     padding-bottom: 16px;
   }
 
@@ -642,8 +662,8 @@ hr {
   }
 
   .heading {
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   .intro-reasons__sub-margin {
@@ -672,6 +692,7 @@ hr {
   .reason-text {
     font-size: 25px;
     line-height: 30px;
+    font-weight: 400;
   }
 
   .services {
@@ -780,7 +801,7 @@ hr {
     list-style: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.5rem;
     line-height: 30px;
   }
 
@@ -797,41 +818,42 @@ hr {
     margin-bottom: 0;
   }
 
-  .gallery1 {
+  /* .gallery1 {
     background-image: url(../../img/weight1.jpg);
     height: 421px;
     width: 100%;
-  }
+    margin-right: 1px !important;
+  } */
 
-  .gallery2 {
+  /* .gallery2 {
     background-image: url(../../img/ladylift.jpg);
     height: 421px;
     width: 100%;
-  }
+  } */
 
-  .gallery3 {
+  /* .gallery3 {
     background-image: url(../../img/lady_weight.jpg);
     height: 421px;
     width: 100%;
+  } */
+
+  .section-gallery .gallery .row img {
+    height: 50rem;
+    width: auto;
   }
 
-  .gallery4 {
-    background-image: url(../../img/weight2.jpg);
-    height: 421px;
-    width: 100%;
-  }
-
-  .gallery5 {
+  /* .gallery5 {
     background-image: url(../../img/group__lift.jpg);
-    height: 421px;
+    height: 20rem;
     width: 100%;
-  }
-
+  } */
+/* 
   .gallery6 {
     background-image: url(../../img/gallery6.jpg);
     height: 421px;
     width: 100%;
-  }
+  } */
+
 
   .experts {
     padding-bottom: 94px;
