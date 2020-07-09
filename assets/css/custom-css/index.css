@@ -18,7 +18,7 @@ body {
   font-family: "Montserrat", sans-serif;
   width: 100%;
   height: 100%;
-  font-style: normal !important;
+  /* font-style: normal !important; */
 }
 
 .banner {
@@ -56,7 +56,7 @@ body {
 .landing-page__heading--1 {
   font-style: normal;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 55px;
   line-height: 49px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
@@ -325,7 +325,7 @@ body {
   font-weight: bold;
   display: inline-block; 
   width: 1em;
-  margin-left: 1.3em;
+  /* margin-left: 1.3em; */
 }
 
 #plans {
@@ -353,33 +353,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* .gallery1 {
-  background-image: url(../../img/weight1.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 251px;
-  width: 100%
-} */
-/* 
-.gallery2 {
-  background-image: url(../../img/ladylift.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 350px;
-  width: 100%
-} */
-
-/* .gallery3 {
-  background-image: url(../../img/lady_weight.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 241px;
-  width: 100%
-} */
-
 .gallery4 {
   background-image: url(../../img/weight2.jpg);
   /* background-size: cover; */
@@ -389,44 +362,34 @@ body {
   width: 100%
 }
 
-/* .gallery5 {
-  background-image: url(../../img/group__lift.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 421px;
-  width: 100%
-} */
-
-/* .gallery6 {
-  background-image: url(../../img/gallery6.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 243px;
-  width: 100%
-} */
-
 .section-experts {
-  background-color: rgba(13, 13, 13, 0.96);
+  background-color: rgba(13, 13, 13, 0.96) ;
   
 }
 
 .experts {
   padding-bottom: 50px;
   padding-top: 42px;
-  /* padding-right: 0 !important;
-  padding-left: 0 !important; */
-  /* margin-right: 0 !important;
-  margin-left: 0 !important; */
+
 }
+
+.carousel {
+  margin-top: 64px;
+}
+
+figure{
+  background-color: #0A0A0A;
+  width: 343px !important;
+}
+
 
 .expert-one {
   background-image: url(../../img/expert1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 368px;
+  height: 427px;
+  width:343px;
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 }
 
@@ -435,7 +398,8 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 368px;
+  height: 427px;
+  width: 343px;
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 }
 
@@ -444,7 +408,8 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 368px;
+  height: 427px;
+  width: 343px;
   clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
 }
 
@@ -818,42 +783,16 @@ hr {
     margin-bottom: 0;
   }
 
-  /* .gallery1 {
-    background-image: url(../../img/weight1.jpg);
-    height: 421px;
-    width: 100%;
-    margin-right: 1px !important;
-  } */
-
-  /* .gallery2 {
-    background-image: url(../../img/ladylift.jpg);
-    height: 421px;
-    width: 100%;
-  } */
-
-  /* .gallery3 {
-    background-image: url(../../img/lady_weight.jpg);
-    height: 421px;
-    width: 100%;
-  } */
+  
 
   .section-gallery .gallery .row img {
     height: 50rem;
     width: auto;
   }
 
-  /* .gallery5 {
-    background-image: url(../../img/group__lift.jpg);
-    height: 20rem;
-    width: 100%;
-  } */
-/* 
-  .gallery6 {
-    background-image: url(../../img/gallery6.jpg);
-    height: 421px;
-    width: 100%;
-  } */
-
+  figure {
+    width: 200px !important;
+  }
 
   .experts {
     padding-bottom: 94px;
@@ -863,16 +802,20 @@ hr {
   .expert-one {
     background-image: url(../../img/expert1.jpg);
     height: 368px;
+    width: 200px;
   }
 
   .expert-two {
     background-image: url(../../img/expert2.jpg);
+    width: 200px;
     height: 368px;
   }
 
   .expert-three {
     background-image: url(../../img/expert3.jpg);
+    width: 200px;
     height: 368px;
+
   }
 
   .expert__name {
@@ -885,3 +828,35 @@ hr {
     line-height: 18px;
   }
 }
+
+@media (min-width: 992px) {
+  figure {
+    width: 300px !important;
+  }
+  .expert-one {
+    width: 300px;
+  }
+  .expert-two {
+    width: 300px;
+  }
+  .expert-three {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  figure {
+    width: 343px !important;
+  }
+  .expert-one {
+    width: 343px;
+  }
+  .expert-two {
+    width:343px;
+  }
+  .expert-three {
+    width: 343px;
+  }
+}
+
